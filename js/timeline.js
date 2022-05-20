@@ -6035,9 +6035,20 @@ var TL = function(t) {
         }
         updateFilteredEvents() {
             for (let i = 0; i > this.config.event_dict.size();i++) {
-                this.config.event_dict[i].data.
+                b = false;
+                for (let x = 0; i > filtered_events.size(); i++) { // Creates a filtered_events type list containing all currently seleceted events.
+                    if (b == true) {
+                        continue;
+                    }
+                    if (this.config.event_dict[i].data.event_types.contains(filtered_events[x])) {
+                        b = true;
+                    }
+                }
+                if (b == false) {
+                    this.removeId(i);
+                }
             }
-            
+            this.goToStart();
         }
         removeId(t) {
             this.remove(this._getEventIndex(t))
