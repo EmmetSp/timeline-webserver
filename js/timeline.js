@@ -3200,6 +3200,7 @@ var TL = function(t) {
             url: `${e}${t}`
         }).then(t => {
             i = t
+            console.log(i) // prints the csv
         }).catch(t => {
             if ("response_not_csv" == t.proxy_err_code) throw new S("Timeline could not read the data for your timeline. Make sure you have published it to the web.");
             throw new S(t.message)
@@ -3297,6 +3298,7 @@ var TL = function(t) {
                 n = await async function(t, e) {
                     if (!e.sheets_proxy) throw new S("Proxy option must be set to read data from Google");
                     var i = await ee(t, e.sheets_proxy);
+                    console.log(i)
                     if (i) return i
                 }(t, a)
             } catch (t) {
@@ -5696,8 +5698,11 @@ var TL = function(t) {
         _onButtonBackToStart(t) {
             this.fire("back_to_start", t)
         }
+        _onSelectedList(t) {
+            this.fire("update_selected_types")
+        }
         _initLayout() {
-            this._el.button_zoomin = T("span", "tl-menubar-button", this._el.container), this._el.button_zoomout = T("span", "tl-menubar-button", this._el.container), this._el.button_backtostart = T("span", "tl-menubar-button", this._el.container), d && this._el.container.setAttribute("ontouchstart", " "), this._el.button_backtostart.innerHTML = "<span class='tl-icon-goback'></span>", this._el.button_zoomin.innerHTML = "<span class='tl-icon-zoom-in'></span>", this._el.button_zoomout.innerHTML = "<span class='tl-icon-zoom-out'></span>"
+            this._el.button_zoomin = T("span", "tl-menubar-button", this._el.container), this._el.button_zoomout = T("span", "tl-menubar-button", this._el.container), this._el.button_backtostart = T("span", "tl-menubar-button", this._el.container), d && this._el.container.setAttribute("ontouchstart", " "), this._el.button_backtostart.innerHTML = "<span class='tl-icon-goback'></span>", this._el.button_zoomin.innerHTML = "<span class='tl-icon-zoom-in'></span>", this._el.button_zoomout.innerHTML = "<span class='tl-icon-zoom-out'>", this._el.button_updateselectedeventtypes = "<span class='tl-icon-selectedeventtypes'>"
         }
         _initEvents() {
             _t.addListener(this._el.button_backtostart, "click", this._onButtonBackToStart, this), _t.addListener(this._el.button_zoomin, "click", this._onButtonZoomIn, this), _t.addListener(this._el.button_zoomout, "click", this._onButtonZoomOut, this)
@@ -5764,7 +5769,7 @@ var TL = function(t) {
                     zoom_sequence: [.5, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89],
                     language: "en",
                     ga_property_id: null,
-                    track_events: ["back_to_start", "nav_next", "nav_previous", "zoom_in", "zoom_out"],
+                    track_events: ["back_to_start", "nav_next", "nav_previous", "zoom_in", "zoom_out", "update_selected_types"],
                     theme: null,
                     sheets_proxy: "https://sheets-proxy.knightlab.com/proxy/",
                     soundcite: !1
