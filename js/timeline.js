@@ -3200,7 +3200,7 @@ var TL = function(t) {
             url: `${e}${t}`
         }).then(t => {
             i = t
-            console.log("CSV - " + i) // prints the csv
+            console.log(i) // prints the csv
         }).catch(t => {
             if ("response_not_csv" == t.proxy_err_code) throw new S("Timeline could not read the data for your timeline. Make sure you have published it to the web.");
             throw new S(t.message)
