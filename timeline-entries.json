@@ -1,0 +1,43 @@
+{
+  "events": [
+    {
+      "display_date": null,
+      "background": "#333333",
+      "end_date": {
+        "month": null,
+        "time": null,
+        "year": null
+      },
+      "text": {
+        "headline": "Valley LGBT+ History",
+        "text": "This will be an introduction"
+      },
+      "media": {
+        "url": null,
+        "caption": null,
+        "credit": null
+      },
+      "type": "title",
+      "start_date": {
+        "month": null,
+        "time": null,
+        "year": null
+      },
+      "event_types": "T1"
+    }
+  ],
+  "title": [
+    {
+      "media": {
+        "url": "",
+        "caption": "",
+        "thumbnail": "",
+        "credit": ""
+      },
+      "text": {
+        "headline": "Emmet's Example Timeline",
+        "text": "This is bottom text"
+      }
+    }
+  ]
+}
