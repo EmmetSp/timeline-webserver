@@ -3200,7 +3200,7 @@ var TL = function(t) {
             url: `${e}${t}`
         }).then(t => {
             i = t
-            console.log(i) // prints the csv
+            console.log("CSV - " + i) // prints the csv
         }).catch(t => {
             if ("response_not_csv" == t.proxy_err_code) throw new S("Timeline could not read the data for your timeline. Make sure you have published it to the web.");
             throw new S(t.message)
@@ -3253,7 +3253,7 @@ var TL = function(t) {
                                 color: i
                             }),
                             type: e.Type || "",
-                            event_types: e["Event Types"]
+                            event_types: e["Event Types"] || ""
                         };
                         if (Object.keys(e).includes("Start Date") || Object.keys(e).includes("End Date")) e["Start Date"] && (a.start_date = Lt(e["Start Date"])), e["End Date"] && (a.end_date = Lt(e["End Date"]));
                         else {
@@ -5729,7 +5729,7 @@ var TL = function(t) {
                     storyslider: !1,
                     timenav: !1
                 }, this.config = null, this.options = {
-                    script_path: "https://cdn.knightlab.com/libs/timeline3/latest/js/",
+                    script_path: "https://github.com/EmmetSp/timeline-webserver/js/",
                     height: this._el.container.offsetHeight,
                     width: this._el.container.offsetWidth,
                     debug: !1,
