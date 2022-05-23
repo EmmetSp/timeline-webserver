@@ -1,29 +1,7564 @@
 {
   "events": [
     {
-      "display_date": null,
+      "display_date": "",
       "background": "#333333",
       "end_date": {
-        "month": null,
-        "time": null,
-        "year": null
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
       },
       "text": {
         "headline": "Valley LGBT+ History",
         "text": "This will be an introduction"
       },
       "media": {
-        "url": null,
-        "caption": null,
-        "credit": null
+        "url": "",
+        "caption": "",
+        "credit": ""
       },
       "type": "title",
       "start_date": {
-        "month": null,
-        "time": null,
-        "year": null
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
       },
-      "event_types": "T1"
+      "event_types": "some type"
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1849"
+      },
+      "text": {
+        "headline": "Sophia Packard",
+        "text": "New Salem"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1840"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1899"
+      },
+      "text": {
+        "headline": "Romantic Female Bonding",
+        "text": "\"Romantic Female Bonding\" at Smith"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1800"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Attempt to fire gay proffessor",
+        "text": "Amherst College"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1915"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Private Wedding",
+        "text": "President Mary Wooley and Jeanette Marks Wedding"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1901"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Ye Rose Tea Inn",
+        "text": "Ye Rose Tea Inn, Bridge Street, Northampton."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1908"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1929"
+      },
+      "text": {
+        "headline": "Dr. Amber Starback & Mabel Stevens",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1920"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1959"
+      },
+      "text": {
+        "headline": "Gay Professor asked to resign",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1950"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1959"
+      },
+      "text": {
+        "headline": "McCarthy Witchunts",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1950"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1959"
+      },
+      "text": {
+        "headline": "Male Dance Retreat at Jacob's Pillow",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1950"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1959"
+      },
+      "text": {
+        "headline": "Adult Bookstore",
+        "text": "Adult Bookstore NYC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1950"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1969"
+      },
+      "text": {
+        "headline": "Women's Softball",
+        "text": "Industrial League - Orange Devils"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1960"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Search of mall for obscene materials",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1960"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1969"
+      },
+      "text": {
+        "headline": "State law makes it a felony to possess for circulation/sale",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1965"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Amherst HS Teacher fired",
+        "text": "Amherst HIgh School Teacher fired for (among other things) being \"effeminate\""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1962"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Poetry Reading",
+        "text": "Roz Shapiro and Cindy S read Lesbian poetry in a (dorm) hallway at UMass"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1968"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "7",
+        "day": "3",
+        "year": "1969"
+      },
+      "text": {
+        "headline": "Stonewall Riots",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "28",
+        "year": "1969"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Homophile League",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1969"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Amherst Women's Liberation formed",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1969"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Valley Women's Center opens",
+        "text": "Amherst Women's Liberation opens the Valley Women's Center at 200 Main st., Northampton. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "",
+        "year": "1970"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Dance in the Hatch with Steel",
+        "text": "(SHL, GSL, WL)"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1971"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Gay-Straight Teach-In",
+        "text": "SHL Lesbians present Gay-Straight Teach-in at Amherst Women's Liberation monthly meeting."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1971"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Tri-County Fair",
+        "text": "SHL and AWL share an information booth at the Tri-County Fair in Northampton"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "",
+        "year": "1971"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "New England Lesbian Feminist Conference",
+        "text": "AWL and SHL send delegates to the regional conference in Kent, CT."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "",
+        "year": "1971"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Robin Morgan Speaks at UMass",
+        "text": "Something about Robin Morgan VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "8",
+        "year": "1971"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "UMass Gay Women's Caucus forms",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "15",
+        "year": "1971"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "3",
+        "day": "11",
+        "year": "1972"
+      },
+      "text": {
+        "headline": "Five College Women's Cultural Week",
+        "text": "Deadly Nightshade emerges from retirement VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "6",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1972"
+      },
+      "text": {
+        "headline": "The Full Moon newspaper",
+        "text": "The first issue of the Full Moon newspaper is published by the Leverett Road Women's Collective. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Political Study Group",
+        "text": "An attempt to start a Lesbian political study group"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian drop-in",
+        "text": "Tuesday nights at the Valley Women's Center"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "1",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Project SELF",
+        "text": "Everywoman's Center opens, Project SELF. First lesbian workshop, at UMass."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1972"
+      },
+      "text": {
+        "headline": "Southwest Womens Center",
+        "text": "Southwest Womens Center moves from closet to appartment and expands course offerings at UMass. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Deadly Nightshade plays Dickinson House",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Deadly Nightshade plays at dance",
+        "text": "Southwest Womens Center VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Kate Millet Speaks at UMass",
+        "text": "Something about Kate Millet VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "14",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "VWC Meeting",
+        "text": "Meeting at the Valley Women's Center to discuss forming a Gay Coalition"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "",
+        "year": "1972"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "4",
+        "day": "8",
+        "year": "1973"
+      },
+      "text": {
+        "headline": "Women's Festival",
+        "text": "Smith College hosts the Women's Festival with Deadly Nightshade VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "6",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First Sophia Sisters Meeting",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "10",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Deadly Nightshade plays Dickinson House",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1973"
+      },
+      "text": {
+        "headline": "Women's Softball Team",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Mother Jone's Press opens",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "14",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Womens Coffee House",
+        "text": "Northampton Women's Coffee House is discussed VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lilith",
+        "text": "The band Lilith plays at Smith College"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lilith",
+        "text": "The band Lilith plays at Mount Holyoke College"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "",
+        "text": "Second issue of The Full Moon is published"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1973"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "The Women's Hour",
+        "text": "Show is organized on WMUA, Tuesday from 8:00pm to 9:00 pm, by the Women and Media course. (SWWC) VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Valley Women's Union",
+        "text": "Valley Women's Center changes to a Union of: Mother Jones Press, Film Coop, Education, Employment, Staffing, Nesletter, Child Care, and Study and Research work groups. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Dance for Chomo-Uri",
+        "text": "Benefit dance for Chomo-Uri with Lilith and Deadly Nightshade VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "17",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Discussion group",
+        "text": "Off-campus Lesbian discussion group (EWC/Southwest Resource Center)"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbians join VWU Coordinating Board",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "CLIT papers studied at VWU",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Benefit dance",
+        "text": "Lilith and Deadly Nightshade play"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "4",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Friday night discussion groups",
+        "text": "Lesbian garden space. Valley Women's Union"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Dance with Lilith",
+        "text": "Unitarian Church in Springfield"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Smith college womens center",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lilith plays at Dickinson house",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1974"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "1",
+        "day": "25",
+        "year": "1975"
+      },
+      "text": {
+        "headline": "University Women's Conference",
+        "text": "800 Women attend University Women's Conference sponsored by the Everywoman's Center, South West Womens Center and Women's Studies; this is presumably at UMass VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "21",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "New Years Bash",
+        "text": "Lilith plays Emerson House"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"The Girl of Our Dreams\"",
+        "text": "\"The Girl of Our Dreams\" premiers and Amherst Repertory Company forms VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1975"
+      },
+      "text": {
+        "headline": "Emma Goldman Brigade",
+        "text": "Emma Goldman Brigade forms out of a Project SELF workshop on Anarchism and Feminism VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1975"
+      },
+      "text": {
+        "headline": "Old Maid Lesbian newspaper",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1975"
+      },
+      "text": {
+        "headline": "Saturday night coffee house",
+        "text": "Lesbian gardens"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "5",
+        "day": "11",
+        "year": "1975"
+      },
+      "text": {
+        "headline": "Bimillenial lesbian week",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "6",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1975"
+      },
+      "text": {
+        "headline": "Grand Jury Information Project begins",
+        "text": "Northampton Women's Law Center/ SWU VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Artandryl forms",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women's Wednesday Night at Zeldas",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Socialist Feminist Conference",
+        "text": ">80 local women attend Socialist Feminist Conference VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Community Education and Self Defense/ Dyke Patrol form",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women attacked at Gala",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women's Health Care Collective forms",
+        "text": "Women's Health Care Collective forms; branches out of the Community Health Care Collective VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Green Street Tenants' Coop",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Support Group",
+        "text": "Amherst"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Magical Lesbian Playground",
+        "text": "Magical Lesbian Playground forms (LG)"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Gardens",
+        "text": "All Lesbian place is started. Coffee house group starts and brings Lesbian talent from all over the East to the LG every Saturday night until late spring."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Sweetcoming Bookstore",
+        "text": "Sweetcoming Bookstore, all women bookstore, opens. (LG)."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Winter Solstice Celebration. (LG).",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "21",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Cummington Swimming hole",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Dykes and Tykes",
+        "text": "(LG)"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women's Health Care Night on Tuesdays.",
+        "text": "Women's Health Care night on Tuesdays. (Community Health Care Project). Florence. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Liberty Standing Forms",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1975"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "UM Lesbian Union",
+        "text": "UM Lesbian Union forms out of the Gay Women's Caucus of the People's Gay Alliance (old SHL)."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "YONI",
+        "text": "Women's Sexuality Project VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "AFARCE vs. Lesbian-Separatists",
+        "text": "Confrontation between AFARCE cast and some Lesbian-Separatists."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women's Restaurant Project",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Dyke Patrol dibands.",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Magical Lesbian Playgroup disbands",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Nutcracker's Suite",
+        "text": "Nutcracker's Suite opens. Main Street, Northampton"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Community Meeting",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "8",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "4",
+        "day": "18",
+        "year": "1976"
+      },
+      "text": {
+        "headline": "Women's Weekend with Meg Christian",
+        "text": "MHC. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "16",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "5",
+        "day": "2",
+        "year": "1976"
+      },
+      "text": {
+        "headline": "Women and Violence Conference",
+        "text": "Women and Violence Conference.*(EWC).UM. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "1",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"Women on My Mind\" (AFARCE).",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "14",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Mother Jones Press closes",
+        "text": "Mother Jones Press closes and megaera Press opens as a Lesbian publishing company."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "6",
+        "day": "6",
+        "year": "1976"
+      },
+      "text": {
+        "headline": "Susan Saxe Benefit.",
+        "text": "(VWU) VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "5",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Greasy Gorgon, Megaera, Film Coop form the Egg and Marigolths.",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "1",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Greasy Gorgon Garage opens.",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Ceres, Inc.",
+        "text": "(Women's Restaurant Project) purchases property at 68-78 Masonic Street. Renovation begins"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "1",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "They Will Know Me By My Teeth  is published. (Megaera Press).",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Skills Exchange group.",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First issue of Dyke Doinqs",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Artandryl disbands",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "UM Lesbian Union gets its own space",
+        "text": "UM Lesbian Union gets its own space and starts Wednesday women's nights at Farley"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Autumn Market",
+        "text": "Autumn Market. (Skills Exchange)"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "2",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Talent Show to benefit Ceres, Inc.",
+        "text": "Common Womon Club ) VWM."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "26",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Forum on Racism",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "28",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Susan Saxe Benefit.",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "29",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbians in social services",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian drawing support group",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Alliance. Smith College",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Autumnal Celebration* with Liberty Standing benefit",
+        "text": "(Common Womon Club/Ceres, Inc.) VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "3",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women's Market",
+        "text": "(LG/Skills Exchange)"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Common Womon CLub opens",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "19",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "MHC Lesbian support group sponsors eventss",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Old Lady Bluejeans distribution",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1976"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "New Year's celebration",
+        "text": "(Common Womon Club)- VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "1",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Willie Tyson benefit for Megaera and Common Womon",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "9",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "VWU and LG evicted by the landlord",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Sweetcoming BOokstoe moves to the Egg",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Benefit dance for Chomo-Uri with Liberty Standing*",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "1",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Contradance with women musicians",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "4",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "3",
+        "day": "6",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "Philadelphia Dyketactics holds workshops",
+        "text": "MHC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "2",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Robin Morgan benefit reading for Common Womon",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "7",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "VWU moves to space above Common Womon",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Nutcrackers Suite",
+        "text": "Women's Self Defence/ Karate Dojo moves to 68 Masonic Street . Navi is evicted"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "15",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "4",
+        "day": "30",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "\"Waltz for Women's VOices\" and \"This Brooding Sky\"* (AFARCE",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "26",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "MHC LIbrary suppresses love letters from former president",
+        "text": "MHC Library suppresses love letters from former president Mary Wooley to Jaenette Marks an English professor"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "5",
+        "day": "8",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "Women's Community Weekend",
+        "text": "LESBIAN?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "6",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Massage Day to benefit Women's Karate Camp",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "5",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "6",
+        "day": "28",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "National Training Camp for Women and the Martial Arts",
+        "text": "(Nutcracker's Suite) Hampshire College  VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "26",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Karate/Self Defense demonstration for women of the community",
+        "text": "Hampshire College VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "28",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "VWU closes",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "Offense Against Psychosurgery fund",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "Northampton community group on violence. (Gathering Society).",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "MHC Women's Center opens",
+        "text": "MHC Women's Center opens with coalition of Lesbian support group, Women Present Women, and Women's Studies committee."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "11",
+        "day": "12",
+        "year": "1977"
+      },
+      "text": {
+        "headline": "\"Bonnie Keene: Girl Sleuth.\" (AFARCE).'",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "11",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Network of Feminist Therapists founding dinner at common Womon Club.",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "14",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Birthday celebration",
+        "text": "Common Womon is one year old. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "19",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Karate and Self Defense demonstration.",
+        "text": "(Nutcracker's Suite) VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Olga Broumas reads poetry",
+        "text": "MHC VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "The Rock is published",
+        "text": "VWM? Magaera Press"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1977"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lilith benefit for Common Womon Club",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "21",
+        "year": "1978"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "4",
+        "day": "17",
+        "year": "1978"
+      },
+      "text": {
+        "headline": "Seven Sisters Lesbian Conference.",
+        "text": "Radcliffe"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "15",
+        "year": "1978"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Affinity group",
+        "text": "Lesbian Affinity group formed to occupy Seabrook disbanded when the occupation was called off."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1978"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women's Occupation of the Mass. Daily Collegian.",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "",
+        "year": "1978"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Publication of Both Feet in the Door",
+        "text": "Publication of Both Feet in the Door by women who had taken over the Collegian Office"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "",
+        "year": "1978"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Support Groups for Women",
+        "text": "Support Groups for Women in Transition, Younger Women, Divorce, and Lesbians formed at the EWC."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "11",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Jewish Lesbian Study Group forms",
+        "text": "Jewish Lesbian Study Group forms and meets regularly through 1981."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Valley Women's Voice started",
+        "text": "Valley Women's Voice started with money from Women's Media Network; and later became an RSO group at UM. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Support Groups for Women",
+        "text": "Support Groups for Women Victims of Childhood Sexual Abuse, Rape Victims, Lesbian Rape Victims, Single Mothers, Lesbians, Black Women, Divorced Women, and General Support Group begin at EWC."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First Lesbian Arts and Crafts Show",
+        "text": "A benefit for the National Lesbbian Workforce Exchange Project at 19 Hawley St, Northampton."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Northampton",
+        "text": "Mary Daly speaks on Gyno-Ecology at a reception for the author at Womonfyre books. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "16",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First Issue of Valley Womens's Voice",
+        "text": "8 pages VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "1",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First Wendell Country Women's Music Festival",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Publication of Jan Raymond's book, The Transexual Empire",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Hampshire Sauna \"women only hours\".",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women's Media Project expands",
+        "text": "Women's Media Project expands to Women's Media Network, attempts to beome a resource center for women in the media in the Valley. VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "New Alexandria Lesbian Library",
+        "text": "New Alexandria Lesbian Library (founded 1974) moves Chicago to Crescent Moon Farm outside of Huntington, MA."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "1",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Forum formed",
+        "text": "Lesbian Forum formed to deal with lesbian issues, has turned into discussion group."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Kaymarion's Art Show",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "The Wanderground reading by Sally Gearhart",
+        "text": "The Wanderground reading by the author Sally Gearhart and reception at Womonfyre Books."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "4",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "12",
+        "day": "11",
+        "year": "1979"
+      },
+      "text": {
+        "headline": "JEB visits Northampton",
+        "text": "JEB visits Northampton, presents a slide show of lessbian photographs from mid-19th century to the present, reception at Womonfyre Books."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "10",
+        "year": "1979"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Common Womon Club continues",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Arts and Crafts Fair",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "JEB - Lesbian Images in slide show",
+        "text": "JEB- Lesbian Images in Photography Slide Show at Unitarian Church, Northampton  (also at MHC)."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "24 hours of women's programming on WMUA",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "8",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "2nd Wendell Country Women's Music Festival",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"A Poetry Reading for Lesbians\"",
+        "text": "Bet Birdfish, director of NALL, and Vemita Gray, Black Lesbian from Chicago, read their poetry at Chrysalis theatre and talk about NALL. Sponsored by Old Lady Blue Jeans"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "27",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Owners of Womonfyre Books, are threatened with vandalism and rape",
+        "text": "Jil Krolik and Kiryo Spooner, owners of Womonfyre Books, are threatened with vandalism and rape by a group of 4 white men who invaded the bookstore."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1980"
+      },
+      "text": {
+        "headline": "Valley Women's Voice moved to Northampton",
+        "text": "16 pages VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1980"
+      },
+      "text": {
+        "headline": "SCLA  discussions",
+        "text": "SCLA met Sunday nights for discussion on different topics"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "New Alexandria Lesbian Library moves to Worthington",
+        "text": "New Alexandria Lesbian Library moves from Crescent Moon Star Farm in Huntington, MA to Worthington, MA."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "1",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Margie Adam performs at the Iron Horse",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "3",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Holly Near concert",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "24",
+        "year": "1980"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Jewsih Lesbian Pesach Seder",
+        "text": "Over 50 lesbians attend"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "24",
+        "year": "1981"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Performance at Polish Club",
+        "text": "Linda Tillery and Mary Watkins perform at the Polish Club."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "25",
+        "year": "1981"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Wendell Country Women's Music Festival",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "3",
+        "year": "1981"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "New Alexandria Lesbian Library moves to Leeds. MA",
+        "text": "Northampton-Amherst work group forms."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "1",
+        "year": "1981"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First Incest Survivor's Therapy Group",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "",
+        "year": "1981"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Toni Cade Bambara speaks at Smith College",
+        "text": "Toni Cade Bambara speaks at Smith College, reading from her short story collection, Gorilla My Love, sponsored by Afro-American Studies at Smith, Black Studies at Amherst College, and Womonfyre Books."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "21",
+        "year": "1981"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Women coming out as lesbians support group",
+        "text": "EWC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "16",
+        "year": "1981"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Common Womon's Club closes",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "La Mix formed",
+        "text": "La Mix formed, prior to this they had worked together without a name At Rahars for six weeks. La Mix started having women's dances at Hangar One."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Valley Women's Chorus began",
+        "text": "VWM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Third World Lesbian Gathering at HC",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Five College Lesbian meeting",
+        "text": "HCWC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "14",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First meeting of GALA",
+        "text": "First meeting of GALA (Gay and Lesbian Activists), potluck with 15 people."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "17",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Dance at Davis",
+        "text": "Dance at Davic, music by Faye. sponsored by SCLA, Women in Struggle, and Northampton Committee on El Salvador."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "27",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Word is Out film'",
+        "text": "Word is Out film' sponsored by SCWRC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "28",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Alix Dobkin in concert sponsored by SCWRC",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "13",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian FIlm Series",
+        "text": "Sponsored by SCLA, Variations, and Valley Independent Cinema as a fundraiser for Variations"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "14",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "5",
+        "day": "",
+        "year": "1982"
+      },
+      "text": {
+        "headline": "Five College Third World Feminist-Lesbian group formed",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Third incest Survivors Therapy Group, for lesbians only",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Smith administration tried to close Hover House",
+        "text": "Smith administration tried to close Hover House but were not allowed by the Trustees because they didn't give the current residents warning that they would close the house."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Cris Williamson in concert at J.M. Greene, sponsored by Variations and SCWRC",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "4",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbians and the Law Forum,",
+        "text": "SCWRC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "14",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Nice Jewish GIrls",
+        "text": "authors reception with Gloria Greenfield, Evelyn Beck and Adrienne Rich at Womonfyre Books VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "14",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First ever Lesbian and Gay Liberation March",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "15",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Support Groups",
+        "text": "Exploring Sexual Preference, Discussing Motherhood, Women and Stress, and Commonalities of Women ponsored by the EWC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "The Common Womon Club buildings on Masonic Street are sold",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "6",
+        "day": "16",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Valley Women's Martial Arts moves from Masonic St. to Center St.",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "7",
+        "day": "5",
+        "year": "1982"
+      },
+      "text": {
+        "headline": "Womonfyre Books moves from Masonitc St. to Center St.",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "3",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"A Woman's Workshop: For Jewish Lesbians and Thier Friends\" draws over 100 lesbians, SC.",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "1",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "4th Wendell Country Women's Music Festival.",
+        "text": "400-500 women attend"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Open house for lesbian community at New Alexandria Lesbian Library",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "19",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"Dyke Dance\"",
+        "text": "at HC sponsored by NALL, a benefit to make NALL wheelchair accessible."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "25",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"Old Lady Blue Jeans\"",
+        "text": "a reading by Elana Dykewomon for Lesbians and girl children only at SC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"Anti Racism CR\"",
+        "text": "For GALA members at SC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "29",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1982"
+      },
+      "text": {
+        "headline": "North Valley Typesetting and Graphics",
+        "text": "Four women buy production equipment from New Roots to form a designer and artist cooperative; they were unsuccessful as such and became the business collective, North Valley Typesetting and Graphics in Greenfield"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "5",
+        "day": "",
+        "year": "1983"
+      },
+      "text": {
+        "headline": "Hampshire Women's center and Lesbian Alliance Progressive Film Series",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Valley Women's Martial Arts gets Dojo in Thornes",
+        "text": "VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Incest Survivors Therapy Group forms",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "4",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Rape alert meeting",
+        "text": "Lesbian Rape alert meeting in Northampton, Thornes Mkt. after 2 lesbians are raped in Northampton and another woman in 7 weeks. About 200 women attended"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "9",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Dance and Theater Performance",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "23",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Debbie Fier's first album, \"In Your Hands\" is released.",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Anti-KKK march",
+        "text": "sponsored by GALA"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "6",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Debbie Fier Concert",
+        "text": "celebrating her new album, sponsored by Variations at Hotel Northampton"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "14",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Marilyn Frye,  \"On being white: toward a feminist understanding of race supremacy\"",
+        "text": "sponsored by SCLA and Student Lecture Committee VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "30",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Trivia Journal of Ideas was foundedd.",
+        "text": "A magazine of feminisst theory and scholarship VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Threataning phone calls made to NALL",
+        "text": "12/08/1982 - Death threats to Bet Birdfish, NALL director."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "8",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Parthenogenisis",
+        "text": "\"Parthenogenesis: The nature of female creativity\", by Anne G. Delenbaugh. Benefit for Trivia, cosponsored by SCWRC VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Threatening phone calls",
+        "text": "12/18/1982 - Threatening phone calls made to two lesbians in Northampton about NALL."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "18",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Speakout on Addiction",
+        "text": "at Smith College sponsored by SCLA and Lesbians Dealing with Addictions"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "19",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "First Lesbian Community Meeting on threats to NALL",
+        "text": "12/23/1982 - First Lesbian Community Meeting on threats to NALL and the community."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "23",
+        "year": "1982"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "GALA",
+        "text": "inititates coalition to fight for a broad-based Anti-Discrimination ordinance in Northampton"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "More threatening calls",
+        "text": "01/03/1983 - More threatening calls made to NALL."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "3",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Community Meeting",
+        "text": "about the Lesbian Foundation, held at SC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "9",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "2nd Lesbian Community Meeting on threats to NALL",
+        "text": "01/12/1982 - 2nd Lesbian Community Meeting on threats to NALL. Valley Women's Martial Arts Dojo, Thornes Mkt, Northampton"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "12",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Written notes threatening NALL",
+        "text": "01/13/1983 - Written notes, threatening NALL and coommunity as a group, left at Womonfyre Books. \"The paper is right, homosexual people must be eradicated. S.H.U.N. - Stop homosexual Unity Now\" and 'NALL will never exist, Gays must be persecuted\". (\"the paper\" refers to an editorial by Joseph Sobran published in the Daily Hampshire Gazette which was viciously antigay)."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "13",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "The Daily Hampshire Gazette publishes first article ever on Womonfyre Books",
+        "text": "headline reads \"A Women's Bookstore Gains ' Legitimacy'\" VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "19",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "3rd Lesbian Community Meeting",
+        "text": "01/20/1983 - 3rd Lesbian Community Meeting on threats to NALL and community, Valley Women's Martial Arts Dojo, Thornes Mkt, Northampton"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "20",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "A phone call to a lesbian",
+        "text": "A phone call to a lesbian by an unidentified male voice: \"Whats going on in the meetings?\""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "22",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Betsy Rose and Cathy Winter perform at Iron Horse",
+        "text": "Another call(s): \"What's going on in the meetings?\" different male voice"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "24",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "4th Lesbian Community Meeting on threats to community",
+        "text": "Valley Women's Martial Arts dojo, Thornes"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "27",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "A long letter from S.H.U.N was left at Womonfyre Books threatening the store, GALA, NALL and the SCLA",
+        "text": "Saying gays should be \"eradicated\" and threatening to burn the bookstore down"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "29",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Small community meeting to discuss harassment and Mayor's meeting",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "30",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1983"
+      },
+      "text": {
+        "headline": "GALA sponsors a workshop series on Racism and Anti-Semitism for Lesbians and Gay Men",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Union at UM grows,",
+        "text": "Begins Thursday night rap groups"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Small meeting of lesbians and PVPGA gay men on the Mayors meeting",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "2",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "5th Lesbian Community Meeting on threats to community, Mayor's meeting, and Vigil/Protest at Neilson Library",
+        "text": "SC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "3",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Steering Committee meeting on Vigil outside Mayor's meeting at NALL",
+        "text": "Leeds"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "4",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Mayor's meeting with Lesbian/Gay Community and Vigil Demonstration",
+        "text": "about 300 lesbians, gays and supporters"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "8",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "6th Lesbian Community Meeting on threats",
+        "text": "SC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "10",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"The Social Construction of Women's Sickness\", a lecture by Denise Connors",
+        "text": "a benefit for TRIVIA cosponsored by SCWRC VWM?"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "17",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"I Love the Library\"",
+        "text": "support party in Leeds for NALL"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "20",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Sweet Honey in the Rock performs at Smith",
+        "text": "Sponsored by SCWRC and Variations"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "2",
+        "day": "27",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Third Incest Survivors Therapy Group, for lesbians only",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "GALA benefit dance",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "4",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"Pitfalls in Paradise\"",
+        "text": "Produced by Ad Hoc Women Productions"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "11",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "A threat is received",
+        "text": "A threat is received on a tape machine at a local business threatening to kill, first to the coordinator of NALL, then to Kiriyo Spooner, and third to burn Womonfyre Books. The message is received on Saturday and they say that the store will be burned on Tuessday. The store is under 24 hour surveilance for the next 3 days, and for the 2 Tuesdays thereafter."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "3",
+        "day": "14",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Forum on Lesbian Studies",
+        "text": "held at SC by SCLA"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "3",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "More threats of violence",
+        "text": "More threats of violence at the march on May 14"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "5",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "4",
+        "day": "9",
+        "year": "1983"
+      },
+      "text": {
+        "headline": "",
+        "text": "\"and 15-16\""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "8",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "GALA has two weekends of films on gays and lesbians",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Womyn's Dance at Field House",
+        "text": "Sponsored by SCLA"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "9",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "SHUN threat against the march",
+        "text": "yelled on street at two lesbians in Northampton"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "13",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Kate Clinton benefit performance",
+        "text": "Kate Clinton, a feminist humorist gives a benefit performance for TRIVIA cosponsored by the Mount Holyoke Women's Center and TRIVIA"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "23",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Humor Night at Hampshire Red Barn",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"Smith is for Lovers\"",
+        "text": "day held at SC sponsored by SCLA."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "29",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "5",
+        "day": "",
+        "year": "1983"
+      },
+      "text": {
+        "headline": "Picket against pornography",
+        "text": "conducted at Augie's Tobacco Shop in Amherst center coming out of the previous march on rape."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "4",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "5 phone threats against the march",
+        "text": "left on VWV's answering machine from SHUN"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "phone threats against the march",
+        "text": "left on GALA's answering machine from SHUN."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "5",
+        "day": "15",
+        "year": "1983"
+      },
+      "text": {
+        "headline": "Heramedia come to Northampton",
+        "text": "Heramedia, Lesbian Video Project from NYC, comes to Northampton to film Lesbian & Gay Liberation March, victims of harassment (Kiriyo Spooner, Bet Birdfish, Kim Chistiansen) on location in Leeds at NALL & at Womonfyre Books for project on Lesbians & violence"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "14",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "2nd Annual Lesbian and Gay Liberation March",
+        "text": "over 2,000 march"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "14",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "The bookstore gets egged",
+        "text": "The bookstore gets egged on May 28th, May 29th, July 8th, October, December 27th, January 29th, 1984 and April 23, 1984"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "5",
+        "day": "28",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "SHUN call to VWV",
+        "text": "threatens all lesbian and gay groups with violence"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "7",
+        "day": "22",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Daily Hampshire Gazette runs its 4-part series on lesbians",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Jil Krolik sets up a trap",
+        "text": "Jil Krolik of Womonfyre Books sets up a trap for the phone harasser by heavily advertising a reading by Becky Births scheduled for August 5 at the store. The ads list Jills home phone as the information number. The District Attorney's office provides a telephone answering machine, and Jil stays at home to note the time of phone calls. Approximately 35 phone calls from a group of local kids are received. Three phone calls from SHUN are also received on July 30. Robert Kremensky is arrested August 5 for thos calls."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1983"
+      },
+      "text": {
+        "headline": "SC administration attempts to gain control over contents of SCLA's workshops",
+        "text": "SC administration attempts to gain control over contents of SCLA's workshops because of pressure from Alumni and Trustees to deal with the \"Lesbian Problem\"."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "8",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "New Alexandria Lesbian Library moves to Northamtpon",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "1",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1983"
+      },
+      "text": {
+        "headline": "FBI Grand Jury Community Education Coalition started in Northampton",
+        "text": "\"Fall\""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "9",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Thirteenth Moon",
+        "text": "A witch supply store opens at 56 Main St. in Northampton"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"Lesbians and Health\"",
+        "text": "a workshop sponsored by SCLA at SC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "2",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Kremensky is convicted",
+        "text": "Kremensky is convicted of violating the civil rights of 3 lesbians and is sentenced to one year in jail (with all but 3 months suspended.) This is the first jail sentence under the state civil rights law for a violation of a gay person's civil rights."
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "18",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Conference/Support group",
+        "text": "for women involved in any stage of the process of taking on a lesbian identity, EWC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "19",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Support group for Battered Lesbians",
+        "text": "begins at EWC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "10",
+        "day": "20",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Hangar One closes",
+        "text": ""
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Health Workshop",
+        "text": "EWC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "\"Look me in the eye: Old Women, Aging and Ageism\"",
+        "text": "A lecture by Barbara Mcdonald, benefit for TRIVIA cosponsored by SCWRC"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "11",
+        "day": "9",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "La Mix started having dances",
+        "text": "at Justin Ryan's, has three dances"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "Lesbian Union at UM loses its office space",
+        "text": "is offered a small storage space instead. LU wages a successful fight for space resulting in an office in teh Student Union Building, UM"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "12",
+        "day": "",
+        "year": "1983"
+      },
+      "event_types": ""
+    },
+    {
+      "display_date": "",
+      "background": "",
+      "end_date": {
+        "time": "",
+        "month": "",
+        "day": "",
+        "year": ""
+      },
+      "text": {
+        "headline": "GLISS opens with Lesbian/Gay Switchboard",
+        "text": "(Gay/Lesbian Informational Support Services of Springfield)"
+      },
+      "media": {
+        "url": "",
+        "caption": "",
+        "credit": ""
+      },
+      "type": "",
+      "start_date": {
+        "time": "",
+        "month": "1",
+        "day": "",
+        "year": "1984"
+      },
+      "event_types": ""
     }
   ],
   "title": [
