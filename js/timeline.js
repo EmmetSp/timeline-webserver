@@ -3098,7 +3098,7 @@ var TL = function(t) {
             function e(t, e, i) {
                 i || (i = ""), t.hasOwnProperty(e) || (t[e] = i)
             }
-            t.group && (t.group = q(t.group)), t.text || (t.text = {}), e(t.text, "text"), e(t.text, "headline"), Zt(t, Yt, Wt), Zt(t, it, Gt)
+            t.group && (t.group = q(t.group)), t.text || (t.text = {}), e(t.text, "text"), e(t.text, "headline"), Zt(t, Yt, Wt), Zt(t, it, Gt, Dt)
         }
     }
     async function Jt(t) {
