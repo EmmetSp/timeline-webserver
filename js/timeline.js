@@ -515,7 +515,7 @@ var TL = function(t) {
         return "string" == typeof t ? document.getElementById(t) : t
     }
 
-    function T(t, e, i) {
+    function T(t, e, i) { // TimeNav
         var a = document.createElement(t);
         return a.className = e, i && i.appendChild(a), a
     }
@@ -2274,6 +2274,7 @@ var TL = function(t) {
                             if (4 !== e.readyState) return;
                             if (e.status >= 200 && e.status < 300) {
                                 var s = JSON.parse(e.responseText);
+                                console.log("Good JSON FETCH")
                                 i(s)
                             } else a({
                                 status: e.status,
@@ -2355,7 +2356,7 @@ var TL = function(t) {
                 }
             }
         }(ft);
-    const gt = ft.getJSON,
+    const gt = ft.getJSON, // JSON OBJECT!!! EVERYTHING I NEED
         vt = ft.ajax,
         yt = ft.fetchJSON,
         wt = [
@@ -2818,7 +2819,7 @@ var TL = function(t) {
     };
     let Ot = new At;
     At.fallback = Ot;
-    class zt {
+    class zt { // Language
         setLanguage(t) {
             this.language = t
         }
@@ -2833,7 +2834,7 @@ var TL = function(t) {
             return this.getLanguage()._(t)
         }
     }
-    class Rt {
+    class Rt { // Message
         constructor(t, e, i) {
             i && this.setLanguage(i), this._el = {
                 parent: {},
@@ -5031,7 +5032,7 @@ var TL = function(t) {
         }
     }
     F(Ue, ht);
-    class We {
+    class We { // TimeNav
         constructor(t, e, i, a) {
             this.language = a, this._el = {
                 parent: {},
@@ -5315,7 +5316,7 @@ var TL = function(t) {
         }
     }
     F(We, ht, ut);
-    class Ge {
+    class Ge { // Slide, contains some data.
         constructor(t, e, i, a) {
             a && this.setLanguage(a), this._el = {
                 container: {},
@@ -5418,7 +5419,7 @@ var TL = function(t) {
         }
     }
     F(Ge, zt, ht, ut);
-    class Ze {
+    class Ze { // Next or Previous Slide.
         constructor(t, e, i) {
             this._el = {
                 container: {},
@@ -5459,7 +5460,7 @@ var TL = function(t) {
         }
     }
     F(Ze, ut, ht);
-    class Ye {
+    class Ye { // StorySlider
         constructor(t, e, i, a) {
             a && this.setLanguage(a), this._el = {
                 container: {},
@@ -5651,7 +5652,7 @@ var TL = function(t) {
         }
     }
     F(Ye, zt, ht);
-    class Ve {
+    class Ve { // Menubar
         constructor(t, e, i) {
             this._el = {
                 parent: {},
@@ -5659,6 +5660,7 @@ var TL = function(t) {
                 button_backtostart: {},
                 button_zoomin: {},
                 button_zoomout: {},
+                selected_types: {},
                 arrow: {},
                 line: {},
                 coverbar: {},
@@ -5699,11 +5701,11 @@ var TL = function(t) {
         _onButtonBackToStart(t) {
             this.fire("back_to_start", t)
         }
-        _onSelectedList(t) {
-            this.fire("update_selected_types")
+        _onSelectedTypes(t) {
+            this.fire("selected_types", t)
         }
         _initLayout() {
-            this._el.button_zoomin = T("span", "tl-menubar-button", this._el.container), this._el.button_zoomout = T("span", "tl-menubar-button", this._el.container), this._el.button_backtostart = T("span", "tl-menubar-button", this._el.container), d && this._el.container.setAttribute("ontouchstart", " "), this._el.button_backtostart.innerHTML = "<span class='tl-icon-goback'></span>", this._el.button_zoomin.innerHTML = "<span class='tl-icon-zoom-in'></span>", this._el.button_zoomout.innerHTML = "<span class='tl-icon-zoom-out'>", this._el.button_updateselectedeventtypes = "<span class='tl-icon-selectedeventtypes'>"
+            this._el.button_zoomin = T("span", "tl-menubar-button", this._el.container), this._el.button_zoomout = T("span", "tl-menubar-button", this._el.container), this._el.button_backtostart = T("span", "tl-menubar-button", this._el.container), d && this._el.container.setAttribute("ontouchstart", " "), this._el.button_backtostart.innerHTML = "<span class='tl-icon-goback'></span>", this._el.button_zoomin.innerHTML = "<span class='tl-icon-zoom-in'></span>", this._el.button_zoomout.innerHTML = "<span class='tl-icon-zoom-out'>", this._el.menu_selectedtypes = "<span class='tl-icon-selectedtypes'>"
         }
         _initEvents() {
             _t.addListener(this._el.button_backtostart, "click", this._onButtonBackToStart, this), _t.addListener(this._el.button_zoomin, "click", this._onButtonZoomIn, this), _t.addListener(this._el.button_zoomout, "click", this._onButtonZoomOut, this)
@@ -5718,7 +5720,7 @@ var TL = function(t) {
         let t = document.getElementsByTagName("script");
         t && t.length > 0 && (Je = t[t.length - 1].src)
     }
-    class Xe {
+    class Xe { // Timeline
         constructor(t, e, i) {
             if (i || (i = {}), this.ready = !1, this._el = {
                     container: x(t),
@@ -5770,7 +5772,7 @@ var TL = function(t) {
                     zoom_sequence: [.5, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89],
                     language: "en",
                     ga_property_id: null,
-                    track_events: ["back_to_start", "nav_next", "nav_previous", "zoom_in", "zoom_out", "update_selected_types"],
+                    track_events: ["back_to_start", "nav_next", "nav_previous", "zoom_in", "zoom_out", "selected_types"],
                     theme: null,
                     sheets_proxy: "https://sheets-proxy.knightlab.com/proxy/",
                     soundcite: !1
@@ -5873,7 +5875,7 @@ var TL = function(t) {
                 this.showMessage("<strong>" + this._("error") + ":</strong> " + e.join("<br>"))
             }
         }
-        _onDataLoaded() {
+        _onDataLoaded() { // Initializes data loaded.
             this.fire("dataloaded"), this._initLayout(), this._initEvents(), this._initAnalytics(), this.message && this.message.hide();
             new IntersectionObserver(((t, e) => {
                 t.reduce((t, e) => t || e.isIntersecting, !1) && this.updateDisplay()
@@ -5883,7 +5885,7 @@ var TL = function(t) {
             this.message.removeFrom(this._el.container), this._el.container.innerHTML = "", "top" == this.options.timenav_position ? (this._el.timenav = T("div", "tl-timenav", this._el.container), this._el.storyslider = T("div", "tl-storyslider", this._el.container)) : (this._el.storyslider = T("div", "tl-storyslider", this._el.container), this._el.timenav = T("div", "tl-timenav", this._el.container)), this._el.menubar = T("div", "tl-menubar", this._el.container), this.options.width = this._el.container.offsetWidth, this.options.height = this._el.container.offsetHeight, this.options.timenav_height = this._calculateTimeNavHeight(this.options.timenav_height), this._timenav = new We(this._el.timenav, this.config, this.options, this.language), this._timenav.on("loaded", this._onTimeNavLoaded, this), this._timenav.options.height = this.options.timenav_height, this._timenav.init(), this.options.initial_zoom && this.setZoom(this.options.initial_zoom), this._storyslider = new Ye(this._el.storyslider, this.config, this.options, this.language), this._storyslider.on("loaded", this._onStorySliderLoaded, this), this._storyslider.init(), this._menubar = new Ve(this._el.menubar, this._el.container, this.options), "portrait" == this.options.layout ? this.options.storyslider_height = this.options.height - this.options.timenav_height - 1 : this.options.storyslider_height = this.options.height - 1, this._updateDisplay(this._timenav.options.height, !0, 2e3)
         }
         _initEvents() {
-            this._timenav.on("change", this._onTimeNavChange, this), this._timenav.on("zoomtoggle", this._onZoomToggle, this), this._storyslider.on("change", this._onSlideChange, this), this._storyslider.on("colorchange", this._onColorChange, this), this._storyslider.on("nav_next", this._onStorySliderNext, this), this._storyslider.on("nav_previous", this._onStorySliderPrevious, this), this._menubar.on("zoom_in", this._onZoomIn, this), this._menubar.on("zoom_out", this._onZoomOut, this), this._menubar.on("back_to_start", this._onBackToStart, this)
+            this._timenav.on("change", this._onTimeNavChange, this), this._timenav.on("zoomtoggle", this._onZoomToggle, this), this._storyslider.on("change", this._onSlideChange, this), this._storyslider.on("colorchange", this._onColorChange, this), this._storyslider.on("nav_next", this._onStorySliderNext, this), this._storyslider.on("nav_previous", this._onStorySliderPrevious, this), this._menubar.on("zoom_in", this._onZoomIn, this), this._menubar.on("zoom_out", this._onZoomOut, this), this._menubar.on("back_to_start", this._onBackToStart, this), this._menubar.on("selected_types", this._onSelectedTypes, this)
         }
         _onColorChange(t) {
             this.fire("color_change", {
@@ -5917,6 +5919,11 @@ var TL = function(t) {
         _onZoomOut(t) {
             this._timenav.zoomOut(), this.fire("zoom_out", {
                 zoom_level: this._timenav.options.scale_factor
+            }, this)
+        }
+        _onSelectedTypes(t) {
+            this._storyslider.goTo(0), this.fire("selected_types", {
+                types: {}
             }, this)
         }
         _onTimeNavLoaded() {
