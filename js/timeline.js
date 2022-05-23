@@ -2932,10 +2932,11 @@ var TL = function(t) {
             end_date: ["display_date"],
             slide: ["display_date", "group"],
             date: ["display_date"]
-        },
-        Dt = {
-            event_types: ["event_types"]
-        };
+        }
+        //  ,
+        // Dt = {
+        //     event_types: ["event_types"]
+        // };
 
     function Zt(t, e, i) {
         Object.keys(i).forEach(a => {
