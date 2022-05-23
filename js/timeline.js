@@ -2963,7 +2963,7 @@ var TL = function(t) {
     class Vt { // TimelineConfig
         constructor(t) {
             // If it doesnt already come contained with this infomration;
-            if (this.title = "", this.scale = "", this.events = [], this.eras = [], this.event_dict = {}, this.displayed_ids = {}, this.selected_types = [], this.messages = {
+            if (this.title = "", this.scale = "", this.events = [], this.eras = [], this.event_dict = {}, this.displayed_ids = {}, this.last_filtered_types = [], this.messages = {
                     errors: [],
                     warnings: []
                 }, "object" == typeof t && t.events) {
@@ -3004,7 +3004,7 @@ var TL = function(t) {
         }
         addEvent(t, e) {
             var i = this._assignID(t);
-            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, this.displayed_ids[i] = this.events.length - 1, e || Pt(this.events), i)
+            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, this.displayed_ids[i] = this.events.length - 1, this.last_filtered_types = [], e || Pt(this.events), i)
         }        
 
         addEra(t) {
@@ -3024,6 +3024,11 @@ var TL = function(t) {
         _removeDisplayedSlideIndex(index) {
             delete this.displayed_ids[index]
         }
+
+        _setLastFilteredType(types) {
+            this.last_filtered_types = types;
+        }
+
         _assignID(t) {
             var e = t.unique_id;
             return q(e) || (e = t.text ? $(t.text.headline) : null), t.unique_id = function(t, e) {
