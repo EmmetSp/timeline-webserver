@@ -121,7 +121,7 @@ html, body {
     <!-- TIMELINE -->
 
     <!-- JavaScript-->
-    <script src="https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@b30005346da5806def153fd9a8d683c07c17211d/js/timeline.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver/js/timeline.js"></script>
     <!-- CSS -->
     <link title="timeline-styles" rel="stylesheet" 
     href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
@@ -247,7 +247,7 @@ html, body {
         $('#slide_id').html(html);
     }
 
-    function init_slide_event_types(data) {
+    function init_slide_event_types(data) { // Gets every type from every event, more efficient if documented correctly.
 
         var events = timeline.config.events;
         var html = '';
@@ -263,7 +263,7 @@ html, body {
         $('#slide_event_types').html(html);
     }
 
-    var timeline = new TL.Timeline('timeline', 'https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver/timeline-entries.json', {});
+    var timeline = new TL.Timeline('timeline', 'https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@1d7cc478b3450ad5449cf80593aba29b0eb4d561/timeline-entries.json', {});
     // Historic Northampton Timeline: https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@master/timeline-entries.json
     // Provided: https://cdn.jsdelivr.net/gh/NUKnightLab/TimelineJS3@master/website/templates/examples/houston/timeline3.json
 
@@ -273,14 +273,21 @@ html, body {
     timeline.on('added', init_slide_menu);
     timeline.on('removed', init_slide_menu);
 
-    timeline.updateFilteredEvents();
+    // timeline.updateFilteredEvents();
+
+
+    // I have every asset needed to filter out each evernt type, I just need somewhere to store temperary information.
+    // Modifying the timeline.js file will allow me to create such a method as .updateFilteredEvents();
+    // 
 
     for(var i = 0; i < event_list.length; i++) {
         timeline.on(event_list[i], log_event);
     }
 
-    window.onresize = function(event) {
+    window.onresize = function(event) { // simple event loop, look into how updateDisplay is used and modify it with similar properties to filtered events.
+        
         timeline.updateDisplay();
+
     }
     </script>
   </body>
