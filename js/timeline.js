@@ -5933,7 +5933,7 @@ var TL = function(t) {
         }
         _onSelectedTypes(t) {
             this._storyslider.goTo(0), this.fire("selected_types", {
-                types: {}
+                types: selected_types
             }, this)
         }
         _onTimeNavLoaded() {
