@@ -75,7 +75,7 @@ html, body {
                 <br>
 
                 <select id="slide_id" style="width: 200px"></select>
-                <select id="slide_event_types" style="width: 40px; height: 20px"></select>
+                <select id="slide_event_types" style="width: 200px"></select>
                 <button id="goToId">goToId</button>
                 <button id="getDataId">getDataId</button>
                 <button id="getSlideId">getSlideId</button>
@@ -121,7 +121,7 @@ html, body {
     <!-- TIMELINE -->
 
     <!-- JavaScript-->
-    <script src="https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@bcf5bfc83721adcf16ce8cf3d0ff318bdc6abbe1/js/timeline.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@86df040aa8df74aaf96f98e1020f4b03d482046b/js/timeline.js"></script>
     <!-- CSS -->
     <link title="timeline-styles" rel="stylesheet" 
     href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
@@ -250,11 +250,25 @@ html, body {
     function init_slide_event_types(data) { // Gets every type from every event, more efficient if documented correctly.
 
         var events = timeline.config.events;
+        var storedTypes = [];
         var html = '';
-
-        for(var i = 0; i < timeline.config.displayed_ids.length; i++) {
-            
+        
+        for(let i = 0; i < events.length; i++) {
+            var event = events[i]
+            for (var x = 0; x < event.event_types.length; x++) {
+                let temp_type = event.event_types[x]
+                if (storedTypes.includes(temp_type)) {
+                    continue
+                }
+                storedTypes.push(temp_type)
+                console.log(temp_type + "")
+            }
         }
+        
+        for (let i = 0; i < storedTypes.length; i++) {
+            html += '<option value="'+storedTypes[i]+'">'+storedTypes[i]+'</option>';
+        }
+
         $('#slide_event_types').html(html);
     }
 
@@ -285,5 +299,7 @@ html, body {
 
     }
     </script>
+
+
   </body>
 </html>

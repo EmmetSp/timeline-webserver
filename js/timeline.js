@@ -3002,9 +3002,10 @@ var TL = function(t) {
         isValid() {
             return 0 == this.messages.errors.length
         }
+        
         addEvent(t, e) {
             var i = this._assignID(t);
-            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, this.displayed_ids[i] = this.events.length - 1, this.last_filtered_types = [""], e || Pt(this.events), i)
+            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, e || Pt(this.events), i)
         }        
 
         addEra(t) {
@@ -5093,6 +5094,7 @@ var TL = function(t) {
             this._groups = []
             this._calculated_row_height = 100
             this.current_id = ""
+            this.current_types = []
             this.timescale = {}
             this.timeaxis = {}
             this.max_rows = 6
@@ -5816,7 +5818,7 @@ var TL = function(t) {
                     zoom_sequence: [.5, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89],
                     language: "en",
                     ga_property_id: null,
-                    track_events: ["back_to_start", "nav_next", "nav_previous", "zoom_in", "zoom_out", "selected_types"],
+                    track_events: ["back_to_start", "nav_next", "nav_previous", "zoom_in", "zoom_out", "update_filtered_types"],
                     theme: null,
                     sheets_proxy: "https://sheets-proxy.knightlab.com/proxy/",
                     soundcite: !1
@@ -6018,7 +6020,10 @@ var TL = function(t) {
             var a, s = this.options.duration,
                 n = this.options.base_class,
                 o = 0;
-            i && (s = i), this.options.width = this._el.container.offsetWidth, this.options.height = this._el.container.offsetHeight, this.options.width <= this.options.skinny_size ? (n += " tl-skinny", this.options.layout = "portrait") : this.options.width <= this.options.medium_size ? (n += " tl-medium", this.options.layout = "landscape") : this.options.layout = "landscape", b && (this.options.layout = (a = "portrait", window.innerWidth > window.innerHeight && (a = "landscape"), Math.abs(window.orientation), a)), d ? (n += " tl-mobile", this.options.timenav_height = this._calculateTimeNavHeight(t, this.options.timenav_mobile_height_percentage)) : this.options.timenav_height = this._calculateTimeNavHeight(t), "portrait" == this.options.layout ? n += " tl-layout-portrait" : n += " tl-layout-landscape", this.options.storyslider_height = this.options.height - this.options.timenav_height, o = "top" == this.options.timenav_position ? Math.ceil(this.options.timenav_height) / 2 - this._el.menubar.offsetHeight / 2 - 19.5 : Math.round(this.options.storyslider_height + 1 + Math.ceil(this.options.timenav_height) / 2 - this._el.menubar.offsetHeight / 2 - 17.5), e ? (this._el.timenav.style.height = Math.ceil(this.options.timenav_height) + "px", this.animator_storyslider && this.animator_storyslider.stop(), this.animator_storyslider = dt(this._el.storyslider, {
+            i && (s = i)
+            this.options.width = this._el.container.offsetWidth
+            this.options.height = this._el.container.offsetHeight
+            this.options.width <= this.options.skinny_size ? (n += " tl-skinny", this.options.layout = "portrait") : this.options.width <= this.options.medium_size ? (n += " tl-medium", this.options.layout = "landscape") : this.options.layout = "landscape", b && (this.options.layout = (a = "portrait", window.innerWidth > window.innerHeight && (a = "landscape"), Math.abs(window.orientation), a)), d ? (n += " tl-mobile", this.options.timenav_height = this._calculateTimeNavHeight(t, this.options.timenav_mobile_height_percentage)) : this.options.timenav_height = this._calculateTimeNavHeight(t), "portrait" == this.options.layout ? n += " tl-layout-portrait" : n += " tl-layout-landscape", this.options.storyslider_height = this.options.height - this.options.timenav_height, o = "top" == this.options.timenav_position ? Math.ceil(this.options.timenav_height) / 2 - this._el.menubar.offsetHeight / 2 - 19.5 : Math.round(this.options.storyslider_height + 1 + Math.ceil(this.options.timenav_height) / 2 - this._el.menubar.offsetHeight / 2 - 17.5), e ? (this._el.timenav.style.height = Math.ceil(this.options.timenav_height) + "px", this.animator_storyslider && this.animator_storyslider.stop(), this.animator_storyslider = dt(this._el.storyslider, {
                 height: this.options.storyslider_height + "px",
                 duration: s / 2,
                 easing: ot
@@ -6133,7 +6138,22 @@ var TL = function(t) {
         removeId(t) { // Removes an event at the given index.
             this.remove(this._getEventIndex(t))
         }
-
+        
+        removeAll() {
+            for (let i = 0; i < this.config.events.length; i++) {
+                id = this.config.events[i].unique_id
+    
+                var event = this.config.events.splice(i, 1);
+                delete this.config.event_dict[event[0].unique_id];
+                this._storyslider.destroySlide(this.config.title ? n + 1 : n);
+                this._storyslider._updateDrawSlides();
+    
+                this._timenav.destroyMarker(n);
+                this._timenav._updateDrawTimeline(false);
+    
+            }
+    
+        }
         updateFilteredEvents() { // updateFilteredEvents, this is run whenever we want to refresh to whatever the user has input.
             selected_types = this.config.getSelectedTypes()
 
