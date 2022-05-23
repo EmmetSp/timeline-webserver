@@ -74,11 +74,12 @@ html, body {
                 <button id="removeSlide">removeSlide</button>
                 <br>
 
-                <select id="slide_id"></select>
-                <select id="slide_event_types" style="width: 40px; height: 20px" multiple></select>
+                <select id="slide_id" style="width: 200px"></select>
+                <select id="slide_event_types" style="width: 40px; height: 20px"></select>
                 <button id="goToId">goToId</button>
                 <button id="getDataId">getDataId</button>
                 <button id="getSlideId">getSlideId</button>
+                <button id="updateFilter">updateFilter</button>
                 <button id="removeSlideId">removeSlideId</button>
             </div>
 
@@ -101,10 +102,13 @@ html, body {
                     <input id="end_date_dt" placeholder="display text" style="width: 100px;">
             </div>
             <div style="display: inline-block;">
-                <label style="display: inline-block;width: 70px;">headline</label>
+                <label style="display: inline-block;width: 100px;">headline</label>
                 <input type="text" id="headline" style="width: 200px;">
                 <br>
-                <label style="display: inline-block;width: 70px;">text</label>
+                <label style="display: inline-block;width: 100px;">event types</label>
+                <input type="text" id="event_types" style="width: 200px">
+                <br>
+                <label style="display: inline-block;width: 100px;">text</label>
                 <input type="text" id="text"  style="width: 200px;">
             </div>
             <br>
@@ -117,7 +121,7 @@ html, body {
     <!-- TIMELINE -->
 
     <!-- JavaScript-->
-    <script src="https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver/js/timeline.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@/js/timeline.js"></script>
     <!-- CSS -->
     <link title="timeline-styles" rel="stylesheet" 
     href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
@@ -148,6 +152,7 @@ html, body {
                 "headline":     $('#headline').val().trim() || "",
                 "text":         $('#text').val().trim() || ""
             },
+            "event_types":       $('#event_types').val().trim().split(" ") || [],
             "unique_id":         ""
         };
 
@@ -198,9 +203,8 @@ html, body {
     $('#removeSlideId').click(function(event) {
         timeline.removeId($('#slide_id').val());
     });
-
     $('#updateSelectedEventTypes').click(function(event) {
-        timeine.get
+        timeine.updateSelectedTypes();
     })
 
     // List of events to look for
@@ -244,27 +248,22 @@ html, body {
     }
 
     function init_slide_event_types(data) {
-        console.log('EVENT='+data.type, data)
 
-        var events = timeline.config.events;;
+        var events = timeline.config.events;
         var html = '';
 
-        console.log("DEBUG------")
-        console.log(events.length)
-        console.log(events[0].start_date.data.year)
-
-        for(var i = 0; i < events.length; i++) {
-            var year = events[i].start_date.data.year
-            var addedValue = '<option>' + year + '</option>';
-            if (html.includes(addedValue)) { // Works
-                continue;
+        for(var i = 0; i < timeline.config.events.length; i++) {
+            temp_event = timeline.config.events[i]
+            for (var x = 0; x < temp_event.event_types.length; x++) { // Currently thinks that the event type is a string. I'm go
+                temp_types = temp_event.event_types[x]
+                console.log(temp_types)
+                html += '<option value="' + temp_types + '">' + temp_types + "</option>"
             }
-            html += addedValue
         }
         $('#slide_event_types').html(html);
     }
 
-    var timeline = new TL.Timeline('timeline', 'https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@660a2aae0f70f22a3de911298073c6e77fcad101/timeline-entries.json', {});
+    var timeline = new TL.Timeline('timeline', 'https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@55a4252a1bc62a589c1bca36476da77c67ce8544/timeline-entries.json', {});
     // Historic Northampton Timeline: https://cdn.jsdelivr.net/gh/EmmetSp/timeline-webserver@master/timeline-entries.json
     // Provided: https://cdn.jsdelivr.net/gh/NUKnightLab/TimelineJS3@master/website/templates/examples/houston/timeline3.json
 
@@ -273,6 +272,8 @@ html, body {
     timeline.on('loaded', init_slide_event_types)
     timeline.on('added', init_slide_menu);
     timeline.on('removed', init_slide_menu);
+
+    timeline.updateFilteredEvents();
 
     for(var i = 0; i < event_list.length; i++) {
         timeline.on(event_list[i], log_event);
