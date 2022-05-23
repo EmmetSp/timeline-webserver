@@ -5729,7 +5729,7 @@ var TL = function(t) {
                     storyslider: !1,
                     timenav: !1
                 }, this.config = null, this.options = {
-                    script_path: "https://github.com/EmmetSp/timeline-webserver/js/",
+                    script_path: "https://cdn.jsdelivr.com/EmmetSp/timeline-webserver@master/js/",
                     height: this._el.container.offsetHeight,
                     width: this._el.container.offsetWidth,
                     debug: !1,
