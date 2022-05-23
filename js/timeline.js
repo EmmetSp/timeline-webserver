@@ -2959,10 +2959,10 @@ var TL = function(t) {
             e ? -1 == e.value.indexOf("noopener") && t.setAttribute("rel", `noopener ${e.value}`) : t.setAttribute("rel", "noopener")
         }
     }));
-    class Vt { // Constructor for the timeline.
+    class Vt { // TimelineConfig
         constructor(t) {
             // If it doesnt already come contained with this infomration;
-            if (this.title = "", this.scale = "", this.events = [], this.eras = [], this.event_dict = {}, this.selected_types = [], this.messages = {
+            if (this.title = "", this.scale = "", this.events = [], this.eras = [], this.event_dict = {}, this.displayed_ids = {}, this.selected_types = [], this.messages = {
                     errors: [],
                     warnings: []
                 }, "object" == typeof t && t.events) {
@@ -3003,8 +3003,9 @@ var TL = function(t) {
         }
         addEvent(t, e) {
             var i = this._assignID(t);
-            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, e || Pt(this.events), i)
-        }
+            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, this.displayed_ids[event_id] = data, e || Pt(this.events), i)
+        }        
+
         addEra(t) {
             var e = this._assignID(t);
             if (void 0 === t.start_date) throw new S("missing_start_date_err", e);
@@ -3013,6 +3014,15 @@ var TL = function(t) {
                 end_date: t.end_date,
                 headline: t.text.headline
             })
+        }
+
+        _emptyDisplayedSlides() {
+            this.displayed_ids.empty(); // Empties the displayed slides, saving all data in events in the process.
+        }
+    
+        _removeDisplayedSlideIndex(index) {
+            
+            delete this.displayed_ids[index]
         }
         _assignID(t) {
             var e = t.unique_id;
@@ -5069,7 +5079,21 @@ var TL = function(t) {
                 marker_height_min: 30,
                 marker_width_min: 100,
                 zoom_sequence: [.5, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-            }, this.animator = null, this.ready = !1, this._markers = [], this._eras = [], this.has_eras = !1, this._groups = [], this._calculated_row_height = 100, this.current_id = "", this.timescale = {}, this.timeaxis = {}, this.max_rows = 6, this.animate_css = !1, this._swipable, C(this.options, i)
+            }
+            this.animator = null
+            this.ready = !1
+            this._markers = []
+            this._eras = []
+            this.has_eras = !1
+            this._groups = []
+            this._calculated_row_height = 100
+            this.current_id = ""
+            this.timescale = {}
+            this.timeaxis = {}
+            this.max_rows = 6
+            this.animate_css = !1
+            this._swipable
+            C(this.options, i)
         }
         init() {
             this._initLayout(), this._initEvents(), this._initData(), this.updateDisplay(), this._onLoaded()
@@ -5514,7 +5538,8 @@ var TL = function(t) {
             t.removeFrom(this._el.slider_item_container), t.off("added", this._onSlideRemoved, this), t.off("background_change", this._onBackgroundChange)
         }
         _destroySlide(t) {
-            this._removeSlide(this._slides[t]), this._slides.splice(t, 1)
+            this._removeSlide(this._slides[t])
+            this._slides.splice(t, 1)
         }
         _findSlideIndex(t) {
             var e = t;
@@ -5566,7 +5591,10 @@ var TL = function(t) {
             this.goTo(this._findSlideIndex(t), e, i)
         }
         preloadSlides(t) {
-            this._slides[t + 1] && (this._slides[t + 1].loadMedia(), this._slides[t + 1].scrollToTop()), this._slides[t + 2] && (this._slides[t + 2].loadMedia(), this._slides[t + 2].scrollToTop()), this._slides[t - 1] && (this._slides[t - 1].loadMedia(), this._slides[t - 1].scrollToTop()), this._slides[t - 2] && (this._slides[t - 2].loadMedia(), this._slides[t - 2].scrollToTop())
+            this._slides[t + 1] && (this._slides[t + 1].loadMedia(), this._slides[t + 1].scrollToTop())
+            this._slides[t + 2] && (this._slides[t + 2].loadMedia(), this._slides[t + 2].scrollToTop())
+            this._slides[t - 1] && (this._slides[t - 1].loadMedia(), this._slides[t - 1].scrollToTop())
+            this._slides[t - 2] && (this._slides[t - 2].loadMedia(), this._slides[t - 2].scrollToTop())
         }
         next() {
             var t = this._findSlideIndex(this.current_id);
@@ -5620,7 +5648,8 @@ var TL = function(t) {
             this._nav.next.on("clicked", this._onNavigation, this), this._nav.previous.on("clicked", this._onNavigation, this), this._message && this._message.on("clicked", this._onMessageClick, this), this._swipable && (this._swipable.on("swipe_left", this._onNavigation, this), this._swipable.on("swipe_right", this._onNavigation, this), this._swipable.on("swipe_nodirection", this._onSwipeNoDirection, this))
         }
         _initData() {
-            this.data.title && this._createSlide(this.data.title, !0, -1), this._createSlides(this.data.events)
+            this.data.title && this._createSlide(this.data.title, !0, -1)
+            this._createSlides(this.data.events)
         }
         _onBackgroundChange(t) {
             var e = this._findSlideIndex(this.current_id),
@@ -5807,6 +5836,7 @@ var TL = function(t) {
                 this.updateDisplay()
             }.bind(this)), this.options.debug && (n = console.log, j.push(n)), E(this._el.container, "tl-timeline"), this.options.is_embed && E(this._el.container, "tl-timeline-embed"), this.options.is_full_embed && E(this._el.container, "tl-timeline-full-embed"), this._loadLanguage(e)
         }
+
         _loadStyles() {
             let t = null,
                 e = null;
@@ -5822,6 +5852,7 @@ var TL = function(t) {
             }
             e && _e(e)
         }
+
         _loadLanguage(t) {
             try {
                 var e = this.options.language,
@@ -5844,6 +5875,7 @@ var TL = function(t) {
                 this.showMessage(this._translateError(t))
             }
         }
+
         _initData(t) {
             "string" == typeof t ? ie(t, {
                 callback: function(t) {
@@ -5852,12 +5884,15 @@ var TL = function(t) {
                 sheets_proxy: this.options.sheets_proxy
             }) : Vt == t.constructor ? this.setConfig(t) : this.setConfig(new Vt(t))
         }
+
         _translateError(t) {
             return t.hasOwnProperty("stack") && O(t.stack), t.message_key ? this._(t.message_key) + (t.detail ? " [" + t.detail + "]" : "") : t
         }
+
         showMessage(t) {
             this.message ? this.message.updateMessage(t) : (O("No message display available."), O(t))
         }
+        
         determineScriptPath() {
             let t = null;
             if (Je) t = Je;
@@ -5875,6 +5910,11 @@ var TL = function(t) {
             }
             return t ? t.substr(0, t.lastIndexOf("/") + 1) : ""
         }
+
+        getSelectedTypes() {
+            
+        }
+
         setConfig(t) {
             if (this.config = t, this.config.isValid() && (this.config.validate(), this._validateOptions()), this.config.isValid()) try {
                 "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", this._onDataLoaded.bind(this)) : this._onDataLoaded()
@@ -5885,69 +5925,90 @@ var TL = function(t) {
                 this.showMessage("<strong>" + this._("error") + ":</strong> " + e.join("<br>"))
             }
         }
+
         _onDataLoaded() { // Initializes data loaded.
             this.fire("dataloaded"), this._initLayout(), this._initEvents(), this._initAnalytics(), this.message && this.message.hide();
             new IntersectionObserver(((t, e) => {
                 t.reduce((t, e) => t || e.isIntersecting, !1) && this.updateDisplay()
             }).bind(this)).observe(this._el.container), this.ready = !0, this.fire("ready")
         }
+
         _initLayout() {
             this.message.removeFrom(this._el.container), this._el.container.innerHTML = "", "top" == this.options.timenav_position ? (this._el.timenav = T("div", "tl-timenav", this._el.container), this._el.storyslider = T("div", "tl-storyslider", this._el.container)) : (this._el.storyslider = T("div", "tl-storyslider", this._el.container), this._el.timenav = T("div", "tl-timenav", this._el.container)), this._el.menubar = T("div", "tl-menubar", this._el.container), this.options.width = this._el.container.offsetWidth, this.options.height = this._el.container.offsetHeight, this.options.timenav_height = this._calculateTimeNavHeight(this.options.timenav_height), this._timenav = new We(this._el.timenav, this.config, this.options, this.language), this._timenav.on("loaded", this._onTimeNavLoaded, this), this._timenav.options.height = this.options.timenav_height, this._timenav.init(), this.options.initial_zoom && this.setZoom(this.options.initial_zoom), this._storyslider = new Ye(this._el.storyslider, this.config, this.options, this.language), this._storyslider.on("loaded", this._onStorySliderLoaded, this), this._storyslider.init(), this._menubar = new Ve(this._el.menubar, this._el.container, this.options), "portrait" == this.options.layout ? this.options.storyslider_height = this.options.height - this.options.timenav_height - 1 : this.options.storyslider_height = this.options.height - 1, this._updateDisplay(this._timenav.options.height, !0, 2e3)
         }
+
         _initEvents() {
             this._timenav.on("change", this._onTimeNavChange, this), this._timenav.on("zoomtoggle", this._onZoomToggle, this), this._storyslider.on("change", this._onSlideChange, this), this._storyslider.on("colorchange", this._onColorChange, this), this._storyslider.on("nav_next", this._onStorySliderNext, this), this._storyslider.on("nav_previous", this._onStorySliderPrevious, this), this._menubar.on("zoom_in", this._onZoomIn, this), this._menubar.on("zoom_out", this._onZoomOut, this), this._menubar.on("back_to_start", this._onBackToStart, this), this._menubar.on("selected_types", this._onSelectedTypes, this)
         }
+
         _onColorChange(t) {
             this.fire("color_change", {
                 unique_id: this.current_id
             }, this)
         }
+
         _onSlideChange(t) {
             this.current_id != t.unique_id && (this.current_id = t.unique_id, this._timenav.goToId(this.current_id), this._onChange(t))
         }
+
         _onTimeNavChange(t) {
             this.current_id != t.unique_id && (this.current_id = t.unique_id, this._storyslider.goToId(this.current_id), this._onChange(t))
         }
+        
         _onZoomToggle(t) {
             "in" == t.zoom ? this._menubar.toogleZoomIn(t.show) : "out" == t.zoom && this._menubar.toogleZoomOut(t.show)
         }
+
         _onChange(t) {
             this.fire("change", {
                 unique_id: this.current_id
             }, this), this.options.hash_bookmark && this.current_id && this._updateHashBookmark(this.current_id)
         }
+
         _onBackToStart(t) {
             this._storyslider.goTo(0), this.fire("back_to_start", {
                 unique_id: this.current_id
             }, this)
         }
+
         _onZoomIn(t) {
             this._timenav.zoomIn(), this.fire("zoom_in", {
                 zoom_level: this._timenav.options.scale_factor
             }, this)
         }
+
         _onZoomOut(t) {
             this._timenav.zoomOut(), this.fire("zoom_out", {
                 zoom_level: this._timenav.options.scale_factor
             }, this)
         }
+
         _onSelectedTypes(t) {
             this._storyslider.goTo(0), this.fire("selected_types", {
                 types: selected_types
             }, this)
         }
+
         _onTimeNavLoaded() {
             this._loaded.timenav = !0, this._onLoaded()
         }
+
         _onStorySliderLoaded() {
             this._loaded.storyslider = !0, this._onLoaded()
         }
+
         _onStorySliderNext(t) {
             this.fire("nav_next", t)
         }
+
         _onStorySliderPrevious(t) {
             this.fire("nav_previous", t)
         }
+
+        _updateSelectedEvents(t) { // refreshes the displayed_events list.
+            this.updateFilteredEvents()
+        }
+
         _updateDisplay(t, e, i) {
             var a, s = this.options.duration,
                 n = this.options.base_class,
@@ -6049,14 +6110,15 @@ var TL = function(t) {
         }
 
         remove(t) { // Removes a slide based off it's input event unique-id.
-            if (t >= 0 && t < this.config.events.length) {
+            if (t >= 0 && t < this.config.events.length) { // Checks if it's inside array
+                
                 this.config.events[t].unique_id == this.current_id && (t < this.config.events.length - 1 ? this.goTo(t + 1) : this.goTo(t - 1));
-                var e = this.config.events.splice(t, 1);
+                var e = this.config.events.splice(t, 1); // the output event from input number.
                 delete this.config.event_dict[e[0].unique_id];
-                this._storyslider.destroySlide(this.config.title ? t + 1 : t);
-                this._storyslider._updateDrawSlides();
-                this._timenav.destroyMarker(t);
-                this._timenav._updateDrawTimeline(!1);
+                this._storyslider.destroySlide(this.config.title ? t + 1 : t); // Removes slide at ID.
+                this._storyslider._updateDrawSlides(); // Updates StorySlider
+                this._timenav.destroyMarker(t); // Removes marker in timenav.
+                this._timenav._updateDrawTimeline(!1); // Updates timenav
                 this.fire("removed", {
                     unique_id: e[0].unique_id
                 })
