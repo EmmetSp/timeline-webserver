@@ -3004,7 +3004,7 @@ var TL = function(t) {
         }
         addEvent(t, e) {
             var i = this._assignID(t);
-            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, this.displayed_ids[i] = this.events.length - 1, this.last_filtered_types = [], e || Pt(this.events), i)
+            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, this.displayed_ids[i] = this.events.length - 1, this.last_filtered_types = [""], e || Pt(this.events), i)
         }        
 
         addEra(t) {
