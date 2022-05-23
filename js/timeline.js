@@ -2963,7 +2963,7 @@ var TL = function(t) {
     class Vt { // TimelineConfig
         constructor(t) {
             // If it doesnt already come contained with this infomration;
-            if (this.title = "", this.scale = "", this.events = [], this.eras = [], this.event_dict = {}, this.displayed_ids = [], this.selected_types = [], this.messages = {
+            if (this.title = "", this.scale = "", this.events = [], this.eras = [], this.event_dict = {}, this.displayed_ids = {}, this.selected_types = [], this.messages = {
                     errors: [],
                     warnings: []
                 }, "object" == typeof t && t.events) {
@@ -3004,7 +3004,7 @@ var TL = function(t) {
         }
         addEvent(t, e) {
             var i = this._assignID(t);
-            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, this.displayed_ids.push(i), e || Pt(this.events), i)
+            return void 0 === t.start_date ? (O("Missing start date, skipping event"), console.log(t), null) : (this._processDates(t), this._tidyFields(t), this.events.push(t), this.event_dict[i] = t, this.displayed_ids[i] = events.length, e || Pt(this.events), i)
         }        
 
         addEra(t) {
@@ -3018,11 +3018,10 @@ var TL = function(t) {
         }
 
         _emptyDisplayedSlides() {
-            this.displayed_ids.empty(); // Empties the displayed slides, saving all data in events in the process.
+            this.displayed_ids = []; // Empties the displayed slides, saving all data in events in the process.
         }
     
         _removeDisplayedSlideIndex(index) {
-            
             delete this.displayed_ids[index]
         }
         _assignID(t) {
