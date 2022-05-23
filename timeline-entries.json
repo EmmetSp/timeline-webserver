@@ -25,7 +25,10 @@
         "day": "",
         "year": ""
       },
-      "event_types": "some type"
+      "event_types": [
+        "some",
+        "type"
+      ]
     },
     {
       "display_date": "",
@@ -52,7 +55,7 @@
         "day": "",
         "year": "1840"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -79,7 +82,7 @@
         "day": "",
         "year": "1800"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -106,7 +109,7 @@
         "day": "",
         "year": "1915"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -133,7 +136,7 @@
         "day": "",
         "year": "1901"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -160,7 +163,7 @@
         "day": "",
         "year": "1908"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -187,7 +190,7 @@
         "day": "",
         "year": "1920"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -214,7 +217,7 @@
         "day": "",
         "year": "1950"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -241,7 +244,7 @@
         "day": "",
         "year": "1950"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -268,7 +271,7 @@
         "day": "",
         "year": "1950"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -295,7 +298,7 @@
         "day": "",
         "year": "1950"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -322,7 +325,7 @@
         "day": "",
         "year": "1960"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -349,7 +352,7 @@
         "day": "",
         "year": "1960"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -376,7 +379,7 @@
         "day": "",
         "year": "1965"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -403,7 +406,7 @@
         "day": "",
         "year": "1962"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -430,7 +433,7 @@
         "day": "",
         "year": "1968"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -457,7 +460,7 @@
         "day": "28",
         "year": "1969"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -484,7 +487,7 @@
         "day": "",
         "year": "1969"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -511,7 +514,7 @@
         "day": "",
         "year": "1969"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -538,7 +541,7 @@
         "day": "",
         "year": "1970"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -565,7 +568,7 @@
         "day": "",
         "year": "1971"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -592,7 +595,7 @@
         "day": "",
         "year": "1971"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -619,7 +622,7 @@
         "day": "",
         "year": "1971"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -646,7 +649,7 @@
         "day": "",
         "year": "1971"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -673,7 +676,7 @@
         "day": "8",
         "year": "1971"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -700,7 +703,7 @@
         "day": "15",
         "year": "1971"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -727,7 +730,7 @@
         "day": "6",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -754,7 +757,7 @@
         "day": "",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -781,7 +784,7 @@
         "day": "",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -808,7 +811,7 @@
         "day": "1",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -835,7 +838,7 @@
         "day": "",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -862,7 +865,7 @@
         "day": "",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -889,7 +892,7 @@
         "day": "",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -916,7 +919,7 @@
         "day": "",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -943,7 +946,7 @@
         "day": "14",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -970,7 +973,7 @@
         "day": "",
         "year": "1972"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -997,7 +1000,7 @@
         "day": "6",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1024,7 +1027,7 @@
         "day": "10",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1051,7 +1054,7 @@
         "day": "",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1078,7 +1081,7 @@
         "day": "",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1105,7 +1108,7 @@
         "day": "14",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1132,7 +1135,7 @@
         "day": "",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1159,7 +1162,7 @@
         "day": "",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1186,7 +1189,7 @@
         "day": "",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1213,7 +1216,7 @@
         "day": "",
         "year": "1973"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1240,7 +1243,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1267,7 +1270,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1294,7 +1297,7 @@
         "day": "17",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1321,7 +1324,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1348,7 +1351,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1375,7 +1378,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1402,7 +1405,7 @@
         "day": "4",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1429,7 +1432,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1456,7 +1459,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1483,7 +1486,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1510,7 +1513,7 @@
         "day": "",
         "year": "1974"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1537,7 +1540,7 @@
         "day": "21",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1564,7 +1567,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1591,7 +1594,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1618,7 +1621,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1645,7 +1648,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1672,7 +1675,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1699,7 +1702,7 @@
         "day": "6",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1726,7 +1729,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1753,7 +1756,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1780,7 +1783,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1807,7 +1810,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1834,7 +1837,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1861,7 +1864,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1888,7 +1891,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1915,7 +1918,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1942,7 +1945,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1969,7 +1972,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -1996,7 +1999,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2023,7 +2026,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2050,7 +2053,7 @@
         "day": "21",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2077,7 +2080,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2104,7 +2107,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2131,7 +2134,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2158,7 +2161,7 @@
         "day": "",
         "year": "1975"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2185,7 +2188,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2212,7 +2215,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2239,7 +2242,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2266,7 +2269,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2293,7 +2296,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2320,7 +2323,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2347,7 +2350,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2374,7 +2377,7 @@
         "day": "8",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2401,7 +2404,7 @@
         "day": "16",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2428,7 +2431,7 @@
         "day": "1",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2455,7 +2458,7 @@
         "day": "14",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2482,7 +2485,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2509,7 +2512,7 @@
         "day": "5",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2536,7 +2539,7 @@
         "day": "1",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2563,7 +2566,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2590,7 +2593,7 @@
         "day": "1",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2617,7 +2620,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2644,7 +2647,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2671,7 +2674,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2698,7 +2701,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2725,7 +2728,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2752,7 +2755,7 @@
         "day": "2",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2779,7 +2782,7 @@
         "day": "26",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2806,7 +2809,7 @@
         "day": "28",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2833,7 +2836,7 @@
         "day": "29",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2860,7 +2863,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2887,7 +2890,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2914,7 +2917,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2941,7 +2944,7 @@
         "day": "3",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2968,7 +2971,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -2995,7 +2998,7 @@
         "day": "19",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3022,7 +3025,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3049,7 +3052,7 @@
         "day": "",
         "year": "1976"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3076,7 +3079,7 @@
         "day": "1",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3103,7 +3106,7 @@
         "day": "9",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3130,7 +3133,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3157,7 +3160,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3184,7 +3187,7 @@
         "day": "1",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3211,7 +3214,7 @@
         "day": "4",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3238,7 +3241,7 @@
         "day": "2",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3265,7 +3268,7 @@
         "day": "7",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3292,7 +3295,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3319,7 +3322,7 @@
         "day": "15",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3346,7 +3349,7 @@
         "day": "26",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3373,7 +3376,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3400,7 +3403,7 @@
         "day": "6",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3427,7 +3430,7 @@
         "day": "5",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3454,7 +3457,7 @@
         "day": "26",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3481,7 +3484,7 @@
         "day": "28",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3508,7 +3511,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3535,7 +3538,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3562,7 +3565,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3589,7 +3592,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3616,7 +3619,7 @@
         "day": "11",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3643,7 +3646,7 @@
         "day": "14",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3670,7 +3673,7 @@
         "day": "19",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3697,7 +3700,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3724,7 +3727,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3751,7 +3754,7 @@
         "day": "",
         "year": "1977"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3778,7 +3781,7 @@
         "day": "21",
         "year": "1978"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3805,7 +3808,7 @@
         "day": "15",
         "year": "1978"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3832,7 +3835,7 @@
         "day": "",
         "year": "1978"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3859,7 +3862,7 @@
         "day": "",
         "year": "1978"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3886,7 +3889,7 @@
         "day": "",
         "year": "1978"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3913,7 +3916,7 @@
         "day": "11",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3940,7 +3943,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3967,7 +3970,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -3994,7 +3997,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4021,7 +4024,7 @@
         "day": "",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4048,7 +4051,7 @@
         "day": "16",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4075,7 +4078,7 @@
         "day": "1",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4102,7 +4105,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4129,7 +4132,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4156,7 +4159,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4183,7 +4186,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4210,7 +4213,7 @@
         "day": "1",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4237,7 +4240,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4264,7 +4267,7 @@
         "day": "",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4291,7 +4294,7 @@
         "day": "4",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4318,7 +4321,7 @@
         "day": "10",
         "year": "1979"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4345,7 +4348,7 @@
         "day": "",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4372,7 +4375,7 @@
         "day": "",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4399,7 +4402,7 @@
         "day": "",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4426,7 +4429,7 @@
         "day": "8",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4453,7 +4456,7 @@
         "day": "",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4480,7 +4483,7 @@
         "day": "27",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4507,7 +4510,7 @@
         "day": "",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4534,7 +4537,7 @@
         "day": "",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4561,7 +4564,7 @@
         "day": "",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4588,7 +4591,7 @@
         "day": "1",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4615,7 +4618,7 @@
         "day": "3",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4642,7 +4645,7 @@
         "day": "24",
         "year": "1980"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4669,7 +4672,7 @@
         "day": "24",
         "year": "1981"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4696,7 +4699,7 @@
         "day": "25",
         "year": "1981"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4723,7 +4726,7 @@
         "day": "3",
         "year": "1981"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4750,7 +4753,7 @@
         "day": "1",
         "year": "1981"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4777,7 +4780,7 @@
         "day": "",
         "year": "1981"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4804,7 +4807,7 @@
         "day": "21",
         "year": "1981"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4831,7 +4834,7 @@
         "day": "16",
         "year": "1981"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4858,7 +4861,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4885,7 +4888,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4912,7 +4915,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4939,7 +4942,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4966,7 +4969,7 @@
         "day": "14",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -4993,7 +4996,7 @@
         "day": "17",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5020,7 +5023,7 @@
         "day": "27",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5047,7 +5050,7 @@
         "day": "28",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5074,7 +5077,7 @@
         "day": "13",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5101,7 +5104,7 @@
         "day": "14",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5128,7 +5131,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5155,7 +5158,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5182,7 +5185,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5209,7 +5212,7 @@
         "day": "4",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5236,7 +5239,7 @@
         "day": "14",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5263,7 +5266,7 @@
         "day": "14",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5290,7 +5293,7 @@
         "day": "15",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5317,7 +5320,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5344,7 +5347,7 @@
         "day": "16",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5371,7 +5374,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5398,7 +5401,7 @@
         "day": "3",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5425,7 +5428,7 @@
         "day": "1",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5452,7 +5455,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5479,7 +5482,7 @@
         "day": "19",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5506,7 +5509,7 @@
         "day": "25",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5533,7 +5536,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5560,7 +5563,7 @@
         "day": "29",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5587,7 +5590,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5614,7 +5617,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5641,7 +5644,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5668,7 +5671,7 @@
         "day": "4",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5695,7 +5698,7 @@
         "day": "9",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5722,7 +5725,7 @@
         "day": "23",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5749,7 +5752,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5776,7 +5779,7 @@
         "day": "6",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5803,7 +5806,7 @@
         "day": "14",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5830,7 +5833,7 @@
         "day": "30",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5857,7 +5860,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5884,7 +5887,7 @@
         "day": "8",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5911,7 +5914,7 @@
         "day": "",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5938,7 +5941,7 @@
         "day": "18",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5965,7 +5968,7 @@
         "day": "19",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -5992,7 +5995,7 @@
         "day": "23",
         "year": "1982"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6019,7 +6022,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6046,7 +6049,7 @@
         "day": "3",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6073,7 +6076,7 @@
         "day": "9",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6100,7 +6103,7 @@
         "day": "12",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6127,7 +6130,7 @@
         "day": "13",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6154,7 +6157,7 @@
         "day": "19",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6181,7 +6184,7 @@
         "day": "20",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6208,7 +6211,7 @@
         "day": "22",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6235,7 +6238,7 @@
         "day": "24",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6262,7 +6265,7 @@
         "day": "27",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6289,7 +6292,7 @@
         "day": "29",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6316,7 +6319,7 @@
         "day": "30",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6343,7 +6346,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6370,7 +6373,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6397,7 +6400,7 @@
         "day": "2",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6424,7 +6427,7 @@
         "day": "3",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6451,7 +6454,7 @@
         "day": "4",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6478,7 +6481,7 @@
         "day": "8",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6505,7 +6508,7 @@
         "day": "10",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6532,7 +6535,7 @@
         "day": "17",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6559,7 +6562,7 @@
         "day": "20",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6586,7 +6589,7 @@
         "day": "27",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6613,7 +6616,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6640,7 +6643,7 @@
         "day": "4",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6667,7 +6670,7 @@
         "day": "11",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6694,7 +6697,7 @@
         "day": "14",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6721,7 +6724,7 @@
         "day": "3",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6748,7 +6751,7 @@
         "day": "5",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6775,7 +6778,7 @@
         "day": "8",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6802,7 +6805,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6829,7 +6832,7 @@
         "day": "9",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6856,7 +6859,7 @@
         "day": "13",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6883,7 +6886,7 @@
         "day": "23",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6910,7 +6913,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6937,7 +6940,7 @@
         "day": "29",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6964,7 +6967,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -6991,7 +6994,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7018,7 +7021,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7045,7 +7048,7 @@
         "day": "14",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7072,7 +7075,7 @@
         "day": "14",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7099,7 +7102,7 @@
         "day": "28",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7126,7 +7129,7 @@
         "day": "22",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7153,7 +7156,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7180,7 +7183,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7207,7 +7210,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7234,7 +7237,7 @@
         "day": "1",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7261,7 +7264,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7288,7 +7291,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7315,7 +7318,7 @@
         "day": "2",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7342,7 +7345,7 @@
         "day": "18",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7369,7 +7372,7 @@
         "day": "19",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7396,7 +7399,7 @@
         "day": "20",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7423,7 +7426,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7450,7 +7453,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7477,7 +7480,7 @@
         "day": "9",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7504,7 +7507,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7531,7 +7534,7 @@
         "day": "",
         "year": "1983"
       },
-      "event_types": ""
+      "event_types": []
     },
     {
       "display_date": "",
@@ -7558,7 +7561,7 @@
         "day": "",
         "year": "1984"
       },
-      "event_types": ""
+      "event_types": []
     }
   ],
   "title": [
