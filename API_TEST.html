@@ -252,13 +252,8 @@ html, body {
         var events = timeline.config.events;
         var html = '';
 
-        for(var i = 0; i < timeline.config.events.length; i++) {
-            temp_event = timeline.config.events[i]
-            for (var x = 0; x < temp_event.event_types.length; x++) { // Currently thinks that the event type is a string. I'm go
-                temp_types = temp_event.event_types[x]
-                console.log(temp_types)
-                html += '<option value="' + temp_types + '">' + temp_types + "</option>"
-            }
+        for(var i = 0; i < timeline.config.displayed_ids.length; i++) {
+            
         }
         $('#slide_event_types').html(html);
     }
