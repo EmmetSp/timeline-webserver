@@ -515,7 +515,7 @@ var TL = function(t) {
         return "string" == typeof t ? document.getElementById(t) : t
     }
 
-    function T(t, e, i) { // TimeNav
+    function T(t, e, i) { // An element.
         var a = document.createElement(t);
         return a.className = e, i && i.appendChild(a), a
     }
@@ -2274,7 +2274,6 @@ var TL = function(t) {
                             if (4 !== e.readyState) return;
                             if (e.status >= 200 && e.status < 300) {
                                 var s = JSON.parse(e.responseText);
-                                console.log("Good JSON FETCH")
                                 i(s)
                             } else a({
                                 status: e.status,
@@ -2933,6 +2932,9 @@ var TL = function(t) {
             end_date: ["display_date"],
             slide: ["display_date", "group"],
             date: ["display_date"]
+        },
+        Dt = {
+            event_types: ["event_types"]
         };
 
     function Zt(t, e, i) {
@@ -2957,9 +2959,10 @@ var TL = function(t) {
             e ? -1 == e.value.indexOf("noopener") && t.setAttribute("rel", `noopener ${e.value}`) : t.setAttribute("rel", "noopener")
         }
     }));
-    class Vt {
+    class Vt { // Constructor for the timeline.
         constructor(t) {
-            if (this.title = "", this.scale = "", this.events = [], this.eras = [], this.event_dict = {}, this.messages = {
+            // If it doesnt already come contained with this infomration;
+            if (this.title = "", this.scale = "", this.events = [], this.eras = [], this.event_dict = {}, this.selected_types = [], this.messages = {
                     errors: [],
                     warnings: []
                 }, "object" == typeof t && t.events) {
@@ -2980,6 +2983,7 @@ var TL = function(t) {
                     }
                 }), Pt(this.events), Pt(this.eras)
             }
+            // otherwise do nothing.
         }
         logError(t) {
             O(`logError: ${t}`), this.messages.errors.push(t)
@@ -3314,7 +3318,7 @@ var TL = function(t) {
             dataType: "json",
             success: function(t) {
                 try {
-                    s = new Vt(t)
+                    s = new Vt(t) // Creating a new Timeline, with the valid information input.s
                 } catch (t) {
                     (s = new Vt).logError(t)
                 }
@@ -3551,7 +3555,7 @@ var TL = function(t) {
             return "cosmological" == this._scale ? "compact" : oe[t]
         }
     }
-    class le {
+    class le { // TimeGroup
         constructor(t) {
             this._el = {
                 parent: {},
@@ -3587,7 +3591,7 @@ var TL = function(t) {
         _updateDisplay(t, e, i) {}
     }
     F(le, ht, ut);
-    class he {
+    class he { // Create Eras
         constructor(t, e, i, a) {
             this.start_date = t, this.end_date = e, this.headline = i, this._el = {
                 container: {},
@@ -3653,7 +3657,7 @@ var TL = function(t) {
         }
     }
     F(he, ht, ut);
-    class de {
+    class de { // TimeAxis Creation
         constructor(t, e, i) {
             i && this.setLanguage(i), this._el = {
                 container: {},
@@ -3731,7 +3735,7 @@ var TL = function(t) {
         }
     }
     F(de, ht, ut, zt);
-    class ce {
+    class ce { // Text
         constructor(t, e, i) {
             this._el = {
                     container: {},
@@ -3786,8 +3790,11 @@ var TL = function(t) {
             this.onLoaded()
         }
     }
+
+
+    // START OF MEDIA TYPES
     F(ce, ht);
-    class ue {
+    class ue { // Media Types
         constructor(t, e, i) {
             i && this.setLanguage(i), this._el = {
                 container: {},
@@ -5031,6 +5038,9 @@ var TL = function(t) {
             this.options.enable.y && ((this.options.constraint.top || this.options.constraint.bottom) && (t.y > this.options.constraint.bottom ? t.y = this.options.constraint.bottom : t.y < this.options.constraint.top && (t.y = this.options.constraint.top)), e.top = Math.floor(t.y) + "px"), this.options.enable.x && (this.options.constraint.left && t.x >= this.options.constraint.left && (t.x = this.options.constraint.left), this.options.constraint.right && t.x < this.options.constraint.right && (t.x = this.options.constraint.right), e.left = Math.floor(t.x) + "px"), this.animator = dt(this._el.move, e), this.fire("momentum", this.data)
         }
     }
+
+    // END OF EXTRA TYPES.
+
     F(Ue, ht);
     class We { // TimeNav
         constructor(t, e, i, a) {
@@ -5705,7 +5715,7 @@ var TL = function(t) {
             this.fire("selected_types", t)
         }
         _initLayout() {
-            this._el.button_zoomin = T("span", "tl-menubar-button", this._el.container), this._el.button_zoomout = T("span", "tl-menubar-button", this._el.container), this._el.button_backtostart = T("span", "tl-menubar-button", this._el.container), d && this._el.container.setAttribute("ontouchstart", " "), this._el.button_backtostart.innerHTML = "<span class='tl-icon-goback'></span>", this._el.button_zoomin.innerHTML = "<span class='tl-icon-zoom-in'></span>", this._el.button_zoomout.innerHTML = "<span class='tl-icon-zoom-out'>", this._el.menu_selectedtypes = "<span class='tl-icon-selectedtypes'>"
+            this._el.button_zoomin = T("span", "tl-menubar-button", this._el.container), this._el.button_zoomout = T("span", "tl-menubar-button", this._el.container), this._el.button_backtostart = T("span", "tl-menubar-button", this._el.container), d && this._el.container.setAttribute("ontouchstart", " "), this._el.button_backtostart.innerHTML = "<span class='tl-icon-goback'></span>", this._el.button_zoomin.innerHTML = "<span class='tl-icon-zoom-in'></span>", this._el.button_zoomout.innerHTML = "<span class='tl-icon-zoom-out'>", this._el.menu_selectedtypes = "<span class='tl-icon-selected-types'>"
         }
         _initEvents() {
             _t.addListener(this._el.button_backtostart, "click", this._onButtonBackToStart, this), _t.addListener(this._el.button_zoomin, "click", this._onButtonZoomIn, this), _t.addListener(this._el.button_zoomout, "click", this._onButtonZoomOut, this)
@@ -5885,7 +5895,7 @@ var TL = function(t) {
             this.message.removeFrom(this._el.container), this._el.container.innerHTML = "", "top" == this.options.timenav_position ? (this._el.timenav = T("div", "tl-timenav", this._el.container), this._el.storyslider = T("div", "tl-storyslider", this._el.container)) : (this._el.storyslider = T("div", "tl-storyslider", this._el.container), this._el.timenav = T("div", "tl-timenav", this._el.container)), this._el.menubar = T("div", "tl-menubar", this._el.container), this.options.width = this._el.container.offsetWidth, this.options.height = this._el.container.offsetHeight, this.options.timenav_height = this._calculateTimeNavHeight(this.options.timenav_height), this._timenav = new We(this._el.timenav, this.config, this.options, this.language), this._timenav.on("loaded", this._onTimeNavLoaded, this), this._timenav.options.height = this.options.timenav_height, this._timenav.init(), this.options.initial_zoom && this.setZoom(this.options.initial_zoom), this._storyslider = new Ye(this._el.storyslider, this.config, this.options, this.language), this._storyslider.on("loaded", this._onStorySliderLoaded, this), this._storyslider.init(), this._menubar = new Ve(this._el.menubar, this._el.container, this.options), "portrait" == this.options.layout ? this.options.storyslider_height = this.options.height - this.options.timenav_height - 1 : this.options.storyslider_height = this.options.height - 1, this._updateDisplay(this._timenav.options.height, !0, 2e3)
         }
         _initEvents() {
-            this._timenav.on("change", this._onTimeNavChange, this), this._timenav.on("zoomtoggle", this._onZoomToggle, this), this._storyslider.on("change", this._onSlideChange, this), this._storyslider.on("colorchange", this._onColorChange, this), this._storyslider.on("nav_next", this._onStorySliderNext, this), this._storyslider.on("nav_previous", this._onStorySliderPrevious, this), this._menubar.on("zoom_in", this._onZoomIn, this), this._menubar.on("zoom_out", this._onZoomOut, this), this._menubar.on("back_to_start", this._onBackToStart, this), this._menubar.on("selected_types", this._onSelectedTypes, this)
+            this._timenav.on("change", this._onTimeNavChange, this), this._timenav.on("zoomtoggle", this._onZoomToggle, this), this._storyslider.on("change", this._onSlideChange, this), this._storyslider.on("colorchange", this._onColorChange, this), this._storyslider.on("nav_next", this._onStorySliderNext, this), this._storyslider.on("nav_previous", this._onStorySliderPrevious, this), this._menubar.on("zoom_in", this._onZoomIn, this), this._menubar.on("zoom_out", this._onZoomOut, this), this._menubar.on("back_to_start", this._onBackToStart, this), this._menubar.on("selected_types", this._onSelectedTypes, t his)
         }
         _onColorChange(t) {
             this.fire("color_change", {
@@ -5999,37 +6009,37 @@ var TL = function(t) {
                 }, this)
             }
         }
-        zoomIn() {
+        zoomIn() { // Zoom in
             this._timenav.zoomIn()
         }
-        zoomOut() {
+        zoomOut() { // Zoom out
             this._timenav.zoomOut()
         }
-        setZoom(t) {
+        setZoom(t) { // Set zoom
             this._timenav.setZoom(t)
         }
-        goToId(t) {
+        goToId(t) { // Go to given unique-id
             this.current_id != t && (this.current_id = t, this._timenav.goToId(this.current_id), this._storyslider.goToId(this.current_id, !1, !0), this.fire("change", {
                 unique_id: this.current_id
             }, this))
         }
-        goTo(t) {
+        goTo(t) { // Go to a given index
             this.config.title ? 0 == t ? this.goToId(this.config.title.unique_id) : this.goToId(this.config.events[t - 1].unique_id) : this.goToId(this.config.events[t].unique_id)
         }
-        goToStart() {
+        goToStart() { // Go to the start of the slideshow
             this.goTo(0)
         }
-        goToEnd() {
+        goToEnd() { // Go th the end of the slideshow
             var t = this.config.events.length - 1;
             this.goTo(this.config.title ? t + 1 : t)
         }
-        goToPrev() {
+        goToPrev() { // Go the the previous slide
             this.goTo(this._getSlideIndex(this.current_id) - 1)
         }
-        goToNext() {
+        goToNext() { // Go to the next slide
             this.goTo(this._getSlideIndex(this.current_id) + 1)
         }
-        add(t) {
+        add(t) { // Adds an Event
             var e = this.config.addEvent(t),
                 i = this._getEventIndex(e),
                 a = this.config.events[i];
@@ -6037,35 +6047,55 @@ var TL = function(t) {
                 unique_id: e
             })
         }
-        remove(t) {
+
+        remove(t) { // Removes a slide based off it's input event unique-id.
             if (t >= 0 && t < this.config.events.length) {
                 this.config.events[t].unique_id == this.current_id && (t < this.config.events.length - 1 ? this.goTo(t + 1) : this.goTo(t - 1));
                 var e = this.config.events.splice(t, 1);
-                delete this.config.event_dict[e[0].unique_id], this._storyslider.destroySlide(this.config.title ? t + 1 : t), this._storyslider._updateDrawSlides(), this._timenav.destroyMarker(t), this._timenav._updateDrawTimeline(!1), this.fire("removed", {
+                delete this.config.event_dict[e[0].unique_id];
+                this._storyslider.destroySlide(this.config.title ? t + 1 : t);
+                this._storyslider._updateDrawSlides();
+                this._timenav.destroyMarker(t);
+                this._timenav._updateDrawTimeline(!1);
+                this.fire("removed", {
                     unique_id: e[0].unique_id
                 })
             }
         }
-        updateFilteredEvents() {
-            for (let i = 0; i > this.config.event_dict.size();i++) {
-                b = false;
-                for (let x = 0; i > filtered_events.size(); i++) { // Creates a filtered_events type list containing all currently seleceted events.
-                    if (b == true) {
-                        continue;
-                    }
-                    if (this.config.event_dict[i].data.event_types.contains(filtered_events[x])) {
-                        b = true;
-                    }
-                }
-                if (b == false) {
-                    this.removeId(i);
-                }
-            }
-            this.goToStart();
-        }
-        removeId(t) {
+        
+        removeId(t) { // Removes an event at the given index.
             this.remove(this._getEventIndex(t))
         }
+
+        updateFilteredEvents() { // updateFilteredEvents, this is run whenever we want to refresh to whatever the user has input.
+            selected_types = this.config.getSelectedTypes()
+
+            for (var i = 0; i > this.config.events.length; i++) {
+                var temp_event = this.config.events[i]
+                for (var x = 0; x < temp_event.event_types; x++) {
+                    temp_type = temp_event[x]
+                    if (selected_types.contains(temp_type)) { // If the event contains the type, the code will run.
+                        
+                        break;
+                    } else { // If the event doesn't contain the type, this code will run
+                        if (x == temp_event.event_type.length) {
+                            var t = this._getSlideIndex(temp_event);
+                            
+                            this._storyslider.destroySlide(this.config.title ? t + 1 : t);
+                            this._storyslider._updateDrawSlides();
+                            this._timenav.destroyMarker(t);
+                            this._timenav._updateDrawTimeline(!1);
+                        }
+                    }
+                    this.add(this.config.events[i])
+                    
+                }
+
+            }
+            
+            this.goToStart();
+        }
+
         getData(t) {
             if (this.config.title) {
                 if (0 == t) return this.config.title;
