@@ -6141,11 +6141,12 @@ var TL = function(t) {
 
         removeAll() {
             for (let i = 0; i < this.config.event_dict.length; i++) {
-                let id = Object.keys(this.config.event_dict)[i]
-                console.log(id)
-                this.removeId(id)
+                this._storyslider.removeAll()
+                this._timenav._markers.removeAll
             }
-        }// additional method
+        }
+        
+        // additional method
         updateFilteredEvents() { // updateFilteredEvents, this is run whenever we want to refresh to whatever the user has input.
             selected_types = this.config.getSelectedTypes()
 
