@@ -6140,8 +6140,10 @@ var TL = function(t) {
         }
 
         removeAll() {
-            for (let i = 0; i < this.config.events.length; i++) {
-                this.remove(this.config.events[i])
+            for (let i = 0; i < this.config.event_dict.length; i++) {
+                let id = Object.keys(this.config.event_dict)[i]
+                console.log(id)
+                this.removeId(id)
             }
         }// additional method
         updateFilteredEvents() { // updateFilteredEvents, this is run whenever we want to refresh to whatever the user has input.
