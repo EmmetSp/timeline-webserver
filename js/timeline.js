@@ -6142,7 +6142,7 @@ var TL = function(t) {
         removeAll() {
             for (let i = 0; i < this.config.event_dict.length; i++) {
                 this._storyslider.removeAll()
-                this._timenav._markers.removeAll
+                this._timenav._markers.removeAll()
             }
         }
         
