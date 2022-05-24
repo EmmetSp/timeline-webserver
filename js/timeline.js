@@ -6141,10 +6141,10 @@ var TL = function(t) {
 
         removeAll() {
             for (let i = 0; i < this.config.events.length; i++) {
-                remove(this.config.events[i])
+                this.remove(this.config.events[i])
             }
         }
-        
+
         updateFilteredEvents() { // updateFilteredEvents, this is run whenever we want to refresh to whatever the user has input.
             selected_types = this.config.getSelectedTypes()
 
