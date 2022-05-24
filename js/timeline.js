@@ -6138,19 +6138,10 @@ var TL = function(t) {
         removeId(t) { // Removes an event at the given index.
             this.remove(this._getEventIndex(t))
         }
-        
+
         removeAll() {
             for (let i = 0; i < this.config.events.length; i++) {
-                id = this.config.events[i].unique_id
-    
-                var event = this.config.events.splice(i, 1);
-                delete this.config.event_dict[event[0].unique_id];
-                this._storyslider.destroySlide(this.config.title ? n + 1 : n);
-                this._storyslider._updateDrawSlides();
-    
-                this._timenav.destroyMarker(n);
-                this._timenav._updateDrawTimeline(false);
-    
+                remove(this.config.events[i])
             }
     
         }
